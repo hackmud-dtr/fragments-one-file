@@ -10921,7 +10921,7 @@
 	{
 		"_id": "abandoned_n4rp44.donate",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "abandoned_n4rp44.donate",
 		"sector": "HJG_7128",
 		"sec_level": 2,
@@ -10932,7 +10932,12 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822474683,
+		"edit": 1,
+		"output": "{\"ok\":false,\"msg\":\"Your account balance of 0GC is too low to send 10MGC.\"}",
+		"last_scrape": 1558857320037,
+		"next_scrape": 1558937139969
 	},
 	{
 		"_id": "abandoned_ntinsh.pub_info",
@@ -17898,7 +17903,7 @@
 	{
 		"_id": "abndnd_1l7yfs.vault",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "fresh",
 		"script": "abndnd_1l7yfs.vault",
 		"sector": "HJG_7128",
 		"sec_level": 2,
@@ -17908,6 +17913,51 @@
 			{
 				"type": "added",
 				"when": 1558821408422
+			}
+		],
+		"updt": 1558822474683,
+		"edit": 1,
+		"last_scrape": 1558857330075,
+		"scrape_ct": 20,
+		"next_scrape": 1558857390075,
+		"category": "UNKNOWN CATEGORY",
+		"last_update": 1558857330075,
+		"output": [
+			{
+				"args": {},
+				"calls": 8141,
+				"base": "\n`iWelcome to the` `HZurich Vault`\n`iDiscrete funds storage. Anonymity guaranteed.`\n\n cmd:\"create\"\t cmd:\"deposit\"\n cmd:\"balance\"\t cmd:\"withdraw\"\n cmd:\"pending\"\t cmd:\"help\"\n\n zurich.vault { usr:\"\", pwd:\"\", cmd:\"\" }",
+				"fragments": [
+					"0_CLS",
+					"RROR |",
+					"R | NE",
+					"XBBE270",
+					"6A_FILE"
+				],
+				"hits": [
+					{
+						"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+						"frags": [
+							"0_CLS",
+							"RROR |",
+							"R | NE",
+							"XBBE270",
+							"6A_FILE"
+						]
+					}
+				]
+			}
+		],
+		"identified": [
+			{
+				"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+				"frags": [
+					"0_CLS",
+					"RROR |",
+					"R | NE",
+					"XBBE270",
+					"6A_FILE"
+				]
 			}
 		]
 	},
@@ -18734,7 +18784,7 @@
 	{
 		"_id": "abndnd_2tc4nn.key_load",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "fresh",
 		"script": "abndnd_2tc4nn.key_load",
 		"sector": "HJG_7128",
 		"sec_level": 2,
@@ -18744,6 +18794,57 @@
 			{
 				"type": "added",
 				"when": 1558821408422
+			}
+		],
+		"updt": 1558822474683,
+		"edit": 1,
+		"last_scrape": 1558857339700,
+		"scrape_ct": 20,
+		"next_scrape": 1558857399700,
+		"category": "UNKNOWN CATEGORY",
+		"last_update": 1558857339700,
+		"output": [
+			{
+				"args": {},
+				"calls": 205,
+				"base": "No upgrades present. Reclaim upgrades from other users or purchase them on the market.",
+				"fragments": [
+					"you co",
+					"2F But",
+					"you want",
+					"wanted t",
+					"f\\n2137 t",
+					"\\n212F Bu",
+					" :)\\n212F"
+				],
+				"hits": [
+					{
+						"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+						"frags": [
+							"you co",
+							"2F But",
+							"you want",
+							"wanted t",
+							"f\\n2137 t",
+							"\\n212F Bu",
+							" :)\\n212F"
+						]
+					}
+				]
+			}
+		],
+		"identified": [
+			{
+				"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+				"frags": [
+					"you co",
+					"2F But",
+					"you want",
+					"wanted t",
+					"f\\n2137 t",
+					"\\n212F Bu",
+					" :)\\n212F"
+				]
 			}
 		]
 	},
@@ -26779,7 +26880,7 @@
 	{
 		"_id": "abndnd_hacuq5.bees",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "abndnd_hacuq5.bees",
 		"sector": "SPC_5900",
 		"sec_level": 2,
@@ -26790,7 +26891,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822474683,
+		"edit": 1
 	},
 	{
 		"_id": "abndnd_hacuq5.you",
@@ -27560,7 +27663,7 @@
 	{
 		"_id": "abndnd_jr_rbgwwr.access_v10gs1",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "abndnd_jr_rbgwwr.access_v10gs1",
 		"sector": "HJG_7128",
 		"sec_level": 2,
@@ -27571,7 +27674,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822474683,
+		"edit": 1
 	},
 	{
 		"_id": "abndnd_ju8lji.dead",
@@ -66247,7 +66352,7 @@
 	{
 		"_id": "anonymous_xebr34.unloader",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "anonymous_xebr34.unloader",
 		"sector": "SPC_3679",
 		"sec_level": 2,
@@ -66258,7 +66363,12 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822474683,
+		"edit": 1,
+		"output": "Unexpected token u in JSON at position 0",
+		"last_scrape": 1558857300616,
+		"next_scrape": 1558945740015
 	},
 	{
 		"_id": "anonymous_xn0urd.call_safe",
@@ -68374,7 +68484,7 @@
 	{
 		"_id": "derelict_2cvqyo.distro_help",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "derelict_2cvqyo.distro_help",
 		"sector": "SPC_5900",
 		"sec_level": 2,
@@ -68385,12 +68495,17 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822474683,
+		"edit": 1,
+		"output": "{\"ok\":false,\"msg\":\"Security level guarantee failed: subscript matr1x_co_assets.distro_help 1 < derelict_2cvqyo.distro_help required 2\"}",
+		"last_scrape": 1558857259864,
+		"next_scrape": 1558943115368
 	},
 	{
 		"_id": "derelict_2cvqyo.farm",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "derelict_2cvqyo.farm",
 		"sector": "SPC_5900",
 		"sec_level": 2,
@@ -68401,12 +68516,17 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822474683,
+		"edit": 1,
+		"output": "{\"ok\":false,\"msg\":\"Security level guarantee failed: subscript matr1x_co_assets.farm 1 < derelict_2cvqyo.farm required 2\"}",
+		"last_scrape": 1558857270776,
+		"next_scrape": 1558941693281
 	},
 	{
 		"_id": "derelict_2cvqyo.k3y_cull",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "derelict_2cvqyo.k3y_cull",
 		"sector": "SPC_5900",
 		"sec_level": 2,
@@ -68417,7 +68537,12 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822474683,
+		"edit": 1,
+		"output": "{\"ok\":false,\"msg\":\"Security level guarantee failed: subscript matr1x_co_assets.k3y_cull 1 < derelict_2cvqyo.k3y_cull required 2\"}",
+		"last_scrape": 1558857279877,
+		"next_scrape": 1558941271029
 	},
 	{
 		"_id": "derelict_2cvqyo.k3ys",
@@ -77684,7 +77809,7 @@
 	{
 		"_id": "derelict_km026j.two",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "derelict_km026j.two",
 		"sector": "HJG_2417",
 		"sec_level": 3,
@@ -77695,7 +77820,12 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822474683,
+		"edit": 1,
+		"output": "Access denied",
+		"last_scrape": 1558857189967,
+		"next_scrape": 1558937017385
 	},
 	{
 		"_id": "derelict_km026j.wipe",
@@ -101304,7 +101434,7 @@
 	{
 		"_id": "uknown_z8xttf.pubinfo_gk7u4c",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "uknown_z8xttf.pubinfo_gk7u4c",
 		"sector": "SPC_3679",
 		"sec_level": 2,
@@ -101315,7 +101445,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822474683,
+		"edit": 1
 	},
 	{
 		"_id": "uknown_zmbz1y.scripts_inspect",
@@ -105602,7 +105734,7 @@
 	{
 		"_id": "unidentified_7uh0js.pub_info_k69mv7",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "unidentified_7uh0js.pub_info_k69mv7",
 		"sector": "HJG_7128",
 		"sec_level": 2,
@@ -105613,7 +105745,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822474683,
+		"edit": 1
 	},
 	{
 		"_id": "unidentified_7urmrp.chat",
@@ -108991,10 +109125,914 @@
 					"from": "HJG_4070",
 					"to": "HJG_0976"
 				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863494811,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863504247,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863514834,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863525270,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863536411,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863544850,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863555293,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863565541,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863575251,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863584656,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863594433,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863604446,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863615511,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863625622,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863634427,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863645167,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863654779,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863664472,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863674516,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863685548,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863695046,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863704792,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863714752,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863724927,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863734782,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863744637,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863755152,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863764797,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863775473,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863785501,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863794520,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863804524,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863815344,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863824647,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863834439,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863845623,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863856347,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863864789,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863874644,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863884795,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863894843,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863905416,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863914889,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863924873,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863934608,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863944663,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863955906,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863965214,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863975886,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863985743,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558863996468,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864005000,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864014846,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864024899,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864035213,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864046511,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864055384,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864064839,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864075336,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864085216,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864095071,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864104735,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864115552,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864124868,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864135041,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864145145,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864154867,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864164760,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864174866,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864184858,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864194933,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864204910,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864215483,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864226349,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864235719,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864246785,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864256272,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864265648,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864275716,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864284863,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864294999,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864305385,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864315066,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864325320,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864334991,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864345142,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864355660,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864366041,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864376318,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864386215,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864396309,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864405741,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864415319,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864425872,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864435158,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864445661,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864456745,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864465448,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864475565,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864485611,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864495241,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864505042,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864515472,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864525130,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864535403,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864545314,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864555601,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864565206,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864575669,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864585633,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864595279,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864605773,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558864615824,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
 			]
 		],
-		"updt": 1558863264201,
-		"edit": 17,
+		"updt": 1558864391833,
+		"edit": 21,
 		"output": "\n`D- VIEW MODE -` To learn more about cull mode, pass {help:true}.",
 		"last_scrape": 1558860022393,
 		"next_scrape": 1558860082393,
@@ -113571,7 +114609,7 @@
 	{
 		"_id": "unidentified_h795ka.util",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "unidentified_h795ka.util",
 		"sector": "HJG_2417",
 		"sec_level": 3,
@@ -113582,7 +114620,12 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822474683,
+		"edit": 1,
+		"output": "Cannot read property 'callers' of undefined",
+		"last_scrape": 1558857199933,
+		"next_scrape": 1558943687452
 	},
 	{
 		"_id": "unidentified_htfwgc.bot_brain",
@@ -114362,7 +115405,7 @@
 	{
 		"_id": "unidentified_jvyskx.scan",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "unidentified_jvyskx.scan",
 		"sector": "SPC_5900",
 		"sec_level": 2,
@@ -114373,7 +115416,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822474683,
+		"edit": 1
 	},
 	{
 		"_id": "unidentified_jw8c1d.colors",
@@ -116316,7 +117361,7 @@
 	{
 		"_id": "unidentified_m7yek8.test",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "unidentified_m7yek8.test",
 		"sector": "HJG_7128",
 		"sec_level": 2,
@@ -116327,7 +117372,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822474683,
+		"edit": 1
 	},
 	{
 		"_id": "unidentified_md37wp.bot_brain",
@@ -121176,7 +122223,7 @@
 	{
 		"_id": "unidentified_t5qhu7.request_gc",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "unidentified_t5qhu7.request_gc",
 		"sector": "HJG_2417",
 		"sec_level": 3,
@@ -121187,7 +122234,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822474683,
+		"edit": 1
 	},
 	{
 		"_id": "unidentified_tzk1qc.apekis",
@@ -122981,7 +124030,7 @@
 	{
 		"_id": "unidentified_xdlgpe.locks",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "unidentified_xdlgpe.locks",
 		"sector": "HJG_2417",
 		"sec_level": 3,
@@ -122992,7 +124041,12 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822474683,
+		"edit": 1,
+		"output": "[]",
+		"last_scrape": 1558857219720,
+		"next_scrape": 1558949033391
 	},
 	{
 		"_id": "unidentified_xdlgpe.scam",
@@ -123765,7 +124819,7 @@
 	{
 		"_id": "unidentified_znr35r.beg",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "unidentified_znr35r.beg",
 		"sector": "HJG_2417",
 		"sec_level": 3,
@@ -123776,7 +124830,12 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822474683,
+		"edit": 1,
+		"output": "Cannot read property 'call' of undefined",
+		"last_scrape": 1558857230020,
+		"next_scrape": 1558948622686
 	},
 	{
 		"_id": "unidentified_znr35r.smash",
@@ -128667,7 +129726,7 @@
 	{
 		"_id": "unknown_9epv3q.test",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "unknown_9epv3q.test",
 		"sector": "HJG_2417",
 		"sec_level": 3,
@@ -128678,7 +129737,12 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822474683,
+		"edit": 1,
+		"output": "0",
+		"last_scrape": 1558857240091,
+		"next_scrape": 1558937991099
 	},
 	{
 		"_id": "unknown_9epv3q.to_t1",
