@@ -11776,7 +11776,7 @@
 	{
 		"_id": "abandoned_pjojql.get_access_level",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "abandoned_pjojql.get_access_level",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -11787,12 +11787,17 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823602629,
+		"edit": 1,
+		"output": "Usage: scripts.get_access_level { name: \"<scriptname>\" }",
+		"last_scrape": 1558859111130,
+		"next_scrape": 1558939785356
 	},
 	{
 		"_id": "abandoned_pjojql.get_level",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "skip",
 		"script": "abandoned_pjojql.get_level",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -11803,12 +11808,17 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823602629,
+		"edit": 1,
+		"output": "Usage: `Fscropts`.`Lget_level` { name: \"<scriptname>\" }",
+		"last_scrape": 1558859151287,
+		"next_scrape": 1558942334970
 	},
 	{
 		"_id": "abandoned_pjojql.sys",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "abandoned_pjojql.sys",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -11819,12 +11829,17 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823602629,
+		"edit": 1,
+		"output": "You have no system scripts. Load some with sys.manage",
+		"last_scrape": 1558859182003,
+		"next_scrape": 1558949777489
 	},
 	{
 		"_id": "abandoned_pjojql.tronst",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "abandoned_pjojql.tronst",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -11835,7 +11850,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823602629,
+		"edit": 1
 	},
 	{
 		"_id": "abandoned_pjojql.trust",
@@ -26635,7 +26652,7 @@
 	{
 		"_id": "abndnd_hacuq5.you",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "skip",
 		"script": "abndnd_hacuq5.you",
 		"sector": "K_7312",
 		"sec_level": 0,
@@ -26646,7 +26663,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558858758337,
+		"edit": 2
 	},
 	{
 		"_id": "abndnd_hi7k9m.beat",
@@ -32524,7 +32543,7 @@
 	{
 		"_id": "abndnd_uey1fj.uplog",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "abndnd_uey1fj.uplog",
 		"sector": "SPC_3537",
 		"sec_level": 1,
@@ -32535,7 +32554,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822927768,
+		"edit": 1
 	},
 	{
 		"_id": "abndnd_ug9452.public_xn8897",
@@ -38077,7 +38098,7 @@
 	{
 		"_id": "anon_6hfj4k.bad",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "anon_6hfj4k.bad",
 		"sector": "K_7312",
 		"sec_level": 0,
@@ -38088,7 +38109,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823377659,
+		"edit": 1
 	},
 	{
 		"_id": "anon_6hfj4k.call",
@@ -38175,7 +38198,7 @@
 	{
 		"_id": "anon_6hfj4k.extern_x795jl",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "skip",
 		"script": "anon_6hfj4k.extern_x795jl",
 		"sector": "SPC_3537",
 		"sec_level": 1,
@@ -38186,12 +38209,14 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823153698,
+		"edit": 1
 	},
 	{
 		"_id": "anon_6hfj4k.gc",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "anon_6hfj4k.gc",
 		"sector": "K_7312",
 		"sec_level": 0,
@@ -38202,7 +38227,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823377659,
+		"edit": 1
 	},
 	{
 		"_id": "anon_6hfj4k.is_this_a_loc",
@@ -40435,7 +40462,7 @@
 	{
 		"_id": "anon_9rf618.cull",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "anon_9rf618.cull",
 		"sector": "SPC_3537",
 		"sec_level": 1,
@@ -40446,7 +40473,12 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823153698,
+		"edit": 1,
+		"output": "Nothing to cull.",
+		"last_scrape": 1558858460890,
+		"next_scrape": 1558951410972
 	},
 	{
 		"_id": "anon_9rf618.filter",
@@ -40741,7 +40773,7 @@
 	{
 		"_id": "anon_accxow.sector_chek",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "anon_accxow.sector_chek",
 		"sector": "K_7312",
 		"sec_level": 0,
@@ -40752,7 +40784,12 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823377659,
+		"edit": 1,
+		"output": "Go away!",
+		"last_scrape": 1558858831083,
+		"next_scrape": 1558942498905
 	},
 	{
 		"_id": "anon_accxow.t1_crak",
@@ -58188,7 +58225,7 @@
 	{
 		"_id": "anonymous_aoq2g6.curiosity",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "anonymous_aoq2g6.curiosity",
 		"sector": "K_7312",
 		"sec_level": 0,
@@ -58199,7 +58236,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823377659,
+		"edit": 1
 	},
 	{
 		"_id": "anonymous_aq2cot.loves",
@@ -63719,7 +63758,7 @@
 	{
 		"_id": "anonymous_r9cv0q.upg_manage",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "anonymous_r9cv0q.upg_manage",
 		"sector": "K_7312",
 		"sec_level": 0,
@@ -63730,7 +63769,12 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823377659,
+		"edit": 1,
+		"output": "null",
+		"last_scrape": 1558858911395,
+		"next_scrape": 1558948322726
 	},
 	{
 		"_id": "anonymous_r9cv0q.utils",
@@ -65698,7 +65742,7 @@
 	{
 		"_id": "anonymous_vxtsz1.editor_notes",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "anonymous_vxtsz1.editor_notes",
 		"sector": "HJG_7470",
 		"sec_level": 1,
@@ -65709,7 +65753,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822927768,
+		"edit": 1
 	},
 	{
 		"_id": "anonymous_wni2of.chk",
@@ -67929,7 +67975,7 @@
 	{
 		"_id": "derelict_2cvqyo.bot_scam_do_not_run",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "skip",
 		"script": "derelict_2cvqyo.bot_scam_do_not_run",
 		"sector": "K_7312",
 		"sec_level": 0,
@@ -67940,7 +67986,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823602629,
+		"edit": 1
 	},
 	{
 		"_id": "derelict_2cvqyo.db",
@@ -68324,7 +68372,7 @@
 	{
 		"_id": "derelict_2ttwxy.main_cronscript",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "derelict_2ttwxy.main_cronscript",
 		"sector": "K_7312",
 		"sec_level": 0,
@@ -68335,7 +68383,12 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823602629,
+		"edit": 1,
+		"output": "Unexpected token u in JSON at position 0",
+		"last_scrape": 1558858992818,
+		"next_scrape": 1558949777446
 	},
 	{
 		"_id": "derelict_3bnhol.bank",
@@ -71655,7 +71708,7 @@
 	{
 		"_id": "derelict_a3mys1._spider_web_1_",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "derelict_a3mys1._spider_web_1_",
 		"sector": "K_7312",
 		"sec_level": 0,
@@ -71666,12 +71719,14 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823602629,
+		"edit": 1
 	},
 	{
 		"_id": "derelict_a3mys1._spider_web_2_",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "derelict_a3mys1._spider_web_2_",
 		"sector": "K_7312",
 		"sec_level": 0,
@@ -71682,7 +71737,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823602629,
+		"edit": 1
 	},
 	{
 		"_id": "derelict_a3mys1.core",
@@ -77099,7 +77156,7 @@
 	{
 		"_id": "derelict_kc4gom.insurance",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "skip",
 		"script": "derelict_kc4gom.insurance",
 		"sector": "K_7312",
 		"sec_level": 0,
@@ -77110,7 +77167,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823602629,
+		"edit": 1
 	},
 	{
 		"_id": "derelict_km026j.ac",
@@ -89790,7 +89849,7 @@
 	{
 		"_id": "uknown_b6y9vb.keyring",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "uknown_b6y9vb.keyring",
 		"sector": "HJG_7470",
 		"sec_level": 1,
@@ -89801,7 +89860,12 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822927768,
+		"edit": 1,
+		"output": "{\"ok\":true,\"msg\":\"Command not found.\\n\"}",
+		"last_scrape": 1558858332215,
+		"next_scrape": 1558945992851
 	},
 	{
 		"_id": "uknown_b6y9vb.peddle",
@@ -102189,7 +102253,7 @@
 	{
 		"_id": "unidentified_2q9i27.l",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "unidentified_2q9i27.l",
 		"sector": "K_7312",
 		"sec_level": 0,
@@ -102200,7 +102264,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823602629,
+		"edit": 1
 	},
 	{
 		"_id": "unidentified_2q9i27.npc",
@@ -131925,7 +131991,7 @@
 	{
 		"_id": "unknown_i8dzr5.il",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "unknown_i8dzr5.il",
 		"sector": "HJG_7470",
 		"sec_level": 1,
@@ -131936,7 +132002,12 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822927768,
+		"edit": 1,
+		"output": "`DError:` you're not authorized to use this.",
+		"last_scrape": 1558858342536,
+		"next_scrape": 1558950013913
 	},
 	{
 		"_id": "unknown_jbjxmo.bot_brain",
@@ -135490,7 +135561,7 @@
 	{
 		"_id": "unknown_piriip.crack",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "unknown_piriip.crack",
 		"sector": "HJG_7470",
 		"sec_level": 1,
@@ -135501,12 +135572,14 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822927768,
+		"edit": 1
 	},
 	{
 		"_id": "unknown_piriip.fry",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "unknown_piriip.fry",
 		"sector": "HJG_7470",
 		"sec_level": 1,
@@ -135517,7 +135590,12 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558822927768,
+		"edit": 1,
+		"output": "Cannot read property 'name' of undefined",
+		"last_scrape": 1558858360881,
+		"next_scrape": 1558949344558
 	},
 	{
 		"_id": "unknown_pp9qe8.invest",
