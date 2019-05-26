@@ -3035,7 +3035,7 @@
 	{
 		"_id": "abandoned_6kacy3.sectors",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "abandoned_6kacy3.sectors",
 		"sector": "VNP_6121",
 		"sec_level": 4,
@@ -3046,7 +3046,12 @@
 				"type": "added",
 				"when": 1558821802712
 			}
-		]
+		],
+		"updt": 1558824278065,
+		"edit": 1,
+		"output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_6kacy3.sectors: script doesn't exist\"}",
+		"last_scrape": 1558859862995,
+		"next_scrape": 1558951935933
 	},
 	{
 		"_id": "abandoned_6kacy3.t3_crawl",
@@ -7151,7 +7156,7 @@
 	{
 		"_id": "abandoned_gdfyl3.entry_51u8ae",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "fresh",
 		"script": "abandoned_gdfyl3.entry_51u8ae",
 		"sector": "VNP_6121",
 		"sec_level": 4,
@@ -7161,6 +7166,122 @@
 			{
 				"type": "added",
 				"when": 1558827195938
+			}
+		],
+		"updt": 1558827207699,
+		"edit": 1,
+		"last_scrape": 1558859901811,
+		"scrape_ct": 19,
+		"next_scrape": 1558859961811,
+		"category": "fishie_tank",
+		"last_update": 1558859901811,
+		"output": [
+			{
+				"args": {},
+				"calls": 7752,
+				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+				"fragments": [
+					"UNCE ",
+					"e play",
+					" playe",
+					"E may b",
+					"0 BOUNC",
+					"rce comb",
+					"\\n2171 t"
+				],
+				"hits": [
+					{
+						"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+						"frags": [
+							"UNCE ",
+							"e play",
+							" playe",
+							"E may b",
+							"0 BOUNC",
+							"rce comb",
+							"\\n2171 t"
+						]
+					}
+				]
+			},
+			{
+				"args": {
+					"do": "feed"
+				},
+				"calls": 746,
+				"base": [
+					"Fishies are happy.",
+					"actuly they look fine",
+					"they are still hungry?",
+					"they don't look so good"
+				],
+				"fragments": [
+					"UNCE ",
+					"e play",
+					" playe",
+					"E may b",
+					"0 BOUNC",
+					"rce comb",
+					"\\n2171 t"
+				],
+				"hits": [
+					{
+						"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+						"frags": [
+							"UNCE ",
+							"e play",
+							" playe",
+							"E may b",
+							"0 BOUNC",
+							"rce comb",
+							"\\n2171 t"
+						]
+					}
+				]
+			},
+			{
+				"args": {
+					"do": "clean"
+				},
+				"calls": 8465,
+				"base": "Fishies are happy. Algea eaters are displeased.",
+				"fragments": [
+					"UNCE ",
+					"e play",
+					" playe",
+					"E may b",
+					"0 BOUNC",
+					"rce comb",
+					"\\n2171 t"
+				],
+				"hits": [
+					{
+						"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+						"frags": [
+							"UNCE ",
+							"e play",
+							" playe",
+							"E may b",
+							"0 BOUNC",
+							"rce comb",
+							"\\n2171 t"
+						]
+					}
+				]
+			}
+		],
+		"identified": [
+			{
+				"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+				"frags": [
+					"UNCE ",
+					"e play",
+					" playe",
+					"E may b",
+					"0 BOUNC",
+					"rce comb",
+					"\\n2171 t"
+				]
 			}
 		]
 	},
@@ -11839,7 +11960,7 @@
 	{
 		"_id": "abandoned_pjojql.tronst",
 		"type": "fragment",
-		"mode": "timeout",
+		"mode": "skip",
 		"script": "abandoned_pjojql.tronst",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -11851,13 +11972,16 @@
 				"when": 1558821408422
 			}
 		],
-		"updt": 1558823602629,
-		"edit": 1
+		"updt": 1558859209407,
+		"edit": 2,
+		"output": "accts.balance            gui.chats                `Fscropts`.`Lquine`            \naccts.transactions       gui.quiet                `Fscropts`.`Lsys`              \naccts.xfer_gc_to         gui.size                 `Fscropts`.`Ltrust`            \naccts.xfer_gc_to_caller  gui.vfx                  `Fscropts`.`Luser`             \nautos.reset              gui.vol                  sys.access_log           \nchats.channels           kernel.hardline          sys.breach               \nchats.create             market.browse            sys.cull                 \nchats.join               market.buy               sys.init                 \nchats.leave              market.sell              sys.loc                  \nchats.send               market.stats             sys.manage               \nchats.tell               `Fscropts`.`Lensure_highsec`   sys.specs                \nchats.users              `Fscropts`.`Lensure_lowsec`    sys.status               \ncorps.create             `Fscropts`.`Lensure_midsec`    sys.upgrade_log          \ncorps.hire               `Fscropts`.`Lensure_nullsec`   sys.upgrades             \ncorps.manage             `Fscropts`.`Lfullsec`          sys.xfer_upgrade_to      \ncorps.offers             `Fscropts`.`Lget_access_level` trust.me                 \ncorps.quit               `Fscropts`.`Lget_level`        users.active             \ncorps.top                `Fscropts`.`Lhighsec`          users.last_action        \nescrow.charge            `Fscropts`.`Llowsec`           users.top                \nescrow.confirm           `Fscropts`.`Lmidsec`           \nescrow.stats             `Fscropts`.`Lnullsec`          ",
+		"last_scrape": 1558859221362,
+		"next_scrape": 1558948168750
 	},
 	{
 		"_id": "abandoned_pjojql.trust",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "skip",
 		"script": "abandoned_pjojql.trust",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -11868,12 +11992,17 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823827546,
+		"edit": 1,
+		"output": "accts.balance            gui.chats                `Fscropts`.`Lquine`            \naccts.transactions       gui.quiet                `Fscropts`.`Lsys`              \naccts.xfer_gc_to         gui.size                 `Fscropts`.`Ltrust`            \naccts.xfer_gc_to_caller  gui.vfx                  `Fscropts`.`Luser`             \nautos.reset              gui.vol                  sys.access_log           \nchats.channels           kernel.hardline          sys.breach               \nchats.create             market.browse            sys.cull                 \nchats.join               market.buy               sys.init                 \nchats.leave              market.sell              sys.loc                  \nchats.send               market.stats             sys.manage               \nchats.tell               `Fscropts`.`Lensure_highsec`   sys.specs                \nchats.users              `Fscropts`.`Lensure_lowsec`    sys.status               \ncorps.create             `Fscropts`.`Lensure_midsec`    sys.upgrade_log          \ncorps.hire               `Fscropts`.`Lensure_nullsec`   sys.upgrades             \ncorps.manage             `Fscropts`.`Lfullsec`          sys.xfer_upgrade_to      \ncorps.offers             `Fscropts`.`Lget_access_level` trust.me                 \ncorps.quit               `Fscropts`.`Lget_level`        users.active             \ncorps.top                `Fscropts`.`Lhighsec`          users.last_action        \nescrow.charge            `Fscropts`.`Llowsec`           users.top                \nescrow.confirm           `Fscropts`.`Lmidsec`           \nescrow.stats             `Fscropts`.`Lnullsec`          ",
+		"last_scrape": 1558859301712,
+		"next_scrape": 1558947297239
 	},
 	{
 		"_id": "abandoned_pjojql.user",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "abandoned_pjojql.user",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -11884,7 +12013,12 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823827546,
+		"edit": 1,
+		"output": "farmer_john.bot_brain           farmer_john.db                  \nfarmer_john.bot_scam_do_not_run ",
+		"last_scrape": 1558859331916,
+		"next_scrape": 1558950148485
 	},
 	{
 		"_id": "abandoned_pjvyv8.bot_scam_do_not_run",
@@ -18677,7 +18811,7 @@
 	{
 		"_id": "abndnd_39v6rw.scam",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "abndnd_39v6rw.scam",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -18688,7 +18822,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823827546,
+		"edit": 1
 	},
 	{
 		"_id": "abndnd_3i17np.binmat",
@@ -20712,7 +20848,7 @@
 	{
 		"_id": "abndnd_6mrtck.usac_testing",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "abndnd_6mrtck.usac_testing",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -20723,7 +20859,12 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823827546,
+		"edit": 1,
+		"output": "Cannot read property 'call' of undefined",
+		"last_scrape": 1558859351619,
+		"next_scrape": 1558947209240
 	},
 	{
 		"_id": "abndnd_6mrtck.withdraw",
@@ -24285,7 +24426,7 @@
 	{
 		"_id": "abndnd_do8juh.npc_trap",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "skip",
 		"script": "abndnd_do8juh.npc_trap",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -24296,7 +24437,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823827546,
+		"edit": 1
 	},
 	{
 		"_id": "abndnd_do8juh.w",
@@ -33547,7 +33690,7 @@
 	{
 		"_id": "abndnd_witdac.db_backup",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "abndnd_witdac.db_backup",
 		"sector": "VNP_6121",
 		"sec_level": 4,
@@ -33558,7 +33701,12 @@
 				"type": "added",
 				"when": 1558840850751
 			}
-		]
+		],
+		"updt": 1558840958604,
+		"edit": 1,
+		"output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_witdac.db_backup: script doesn't exist\"}",
+		"last_scrape": 1558859962362,
+		"next_scrape": 1558944872328
 	},
 	{
 		"_id": "abndnd_witdac.upgrades",
@@ -35313,7 +35461,7 @@
 	{
 		"_id": "anon_1nsglc.db",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "anon_1nsglc.db",
 		"sector": "VNP_6121",
 		"sec_level": 4,
@@ -35324,7 +35472,12 @@
 				"type": "added",
 				"when": 1558824432345
 			}
-		]
+		],
+		"updt": 1558824505060,
+		"edit": 1,
+		"output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_1nsglc.db: script doesn't exist\"}",
+		"last_scrape": 1558859873032,
+		"next_scrape": 1558953254261
 	},
 	{
 		"_id": "anon_1nsglc.migrate",
@@ -38325,7 +38478,7 @@
 	{
 		"_id": "anon_6hfj4k.obliterator",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "anon_6hfj4k.obliterator",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -38336,7 +38489,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823827546,
+		"edit": 1
 	},
 	{
 		"_id": "anon_6hfj4k.sysview",
@@ -40525,7 +40680,7 @@
 	{
 		"_id": "anon_9rf618.funsec",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "anon_9rf618.funsec",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -40536,7 +40691,12 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823827546,
+		"edit": 1,
+		"output": "Congratulations, you found my placeholder script.\nFeel free to give me a high five on discord.",
+		"last_scrape": 1558859441559,
+		"next_scrape": 1558941138755
 	},
 	{
 		"_id": "anon_9rf618.lldb",
@@ -41399,7 +41559,7 @@
 	{
 		"_id": "anon_bk6yd6.echelon_mirror_00",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "fresh",
 		"script": "anon_bk6yd6.echelon_mirror_00",
 		"sector": "VNP_6121",
 		"sec_level": 4,
@@ -41409,6 +41569,131 @@
 			{
 				"type": "added",
 				"when": 1558834668103
+			}
+		],
+		"updt": 1558834874223,
+		"edit": 1,
+		"last_scrape": 1558859932225,
+		"scrape_ct": 18,
+		"next_scrape": 1558859992225,
+		"category": "clicker",
+		"last_update": 1558859932225,
+		"output": [
+			{
+				"args": {},
+				"calls": 7031,
+				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
+				"fragments": [
+					"e whoe",
+					"apolog",
+					"pology ",
+					"ould li",
+					"easures",
+					"as to o",
+					" would ",
+					" whoeve",
+					"asures b"
+				],
+				"hits": [
+					{
+						"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+						"frags": [
+							"e whoe",
+							"apolog",
+							"pology ",
+							"ould li",
+							"easures",
+							"as to o",
+							" would ",
+							" whoeve",
+							"asures b"
+						]
+					}
+				]
+			},
+			{
+				"args": {
+					"click": true
+				},
+				"calls": 8807,
+				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
+				"fragments": [
+					"e whoe",
+					"apolog",
+					"pology ",
+					"ould li",
+					"easures",
+					"as to o",
+					" would ",
+					" whoeve",
+					"asures b"
+				],
+				"hits": [
+					{
+						"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+						"frags": [
+							"e whoe",
+							"apolog",
+							"pology ",
+							"ould li",
+							"easures",
+							"as to o",
+							" would ",
+							" whoeve",
+							"asures b"
+						]
+					}
+				]
+			},
+			{
+				"args": {
+					"CLICK": true
+				},
+				"calls": 1080,
+				"base": "`LCLICK SECURED`",
+				"fragments": [
+					"e whoe",
+					"apolog",
+					"pology ",
+					"ould li",
+					"easures",
+					"as to o",
+					" would ",
+					" whoeve",
+					"asures b"
+				],
+				"hits": [
+					{
+						"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+						"frags": [
+							"e whoe",
+							"apolog",
+							"pology ",
+							"ould li",
+							"easures",
+							"as to o",
+							" would ",
+							" whoeve",
+							"asures b"
+						]
+					}
+				]
+			}
+		],
+		"identified": [
+			{
+				"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+				"frags": [
+					"e whoe",
+					"apolog",
+					"pology ",
+					"ould li",
+					"easures",
+					"as to o",
+					" would ",
+					" whoeve",
+					"asures b"
+				]
 			}
 		]
 	},
@@ -45604,7 +45889,7 @@
 	{
 		"_id": "anon_lyoinf.score_me",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "fresh",
 		"script": "anon_lyoinf.score_me",
 		"sector": "VNP_6121",
 		"sec_level": 4,
@@ -45614,6 +45899,54 @@
 			{
 				"type": "added",
 				"when": 1558846772381
+			}
+		],
+		"updt": 1558846820282,
+		"edit": 1,
+		"last_scrape": 1558859972581,
+		"scrape_ct": 20,
+		"next_scrape": 1558860032581,
+		"category": "coin_flipper",
+		"last_update": 1558859972581,
+		"output": [
+			{
+				"args": {},
+				"calls": 8233,
+				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
+				"fragments": [
+					"000 0",
+					"01 010",
+					" 0101 ",
+					" 0000 ",
+					"1 0100 ",
+					"0 0001 0"
+				],
+				"hits": [
+					{
+						"document": "NOT FOUND",
+						"frags": [
+							"000 0",
+							"01 010",
+							" 0101 ",
+							" 0000 ",
+							"1 0100 ",
+							"0 0001 0"
+						]
+					}
+				]
+			}
+		],
+		"identified": [
+			{
+				"document": "NOT FOUND",
+				"frags": [
+					"000 0",
+					"01 010",
+					" 0101 ",
+					" 0000 ",
+					"1 0100 ",
+					"0 0001 0"
+				]
 			}
 		]
 	},
@@ -56493,7 +56826,7 @@
 	{
 		"_id": "anonymous_779hzc.j",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "anonymous_779hzc.j",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -56504,7 +56837,12 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823827546,
+		"edit": 1,
+		"output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR j.k: script doesn't exist\"}",
+		"last_scrape": 1558859451450,
+		"next_scrape": 1558950359742
 	},
 	{
 		"_id": "anonymous_779hzc.m_lost",
@@ -60369,7 +60707,7 @@
 	{
 		"_id": "anonymous_i4730z.existential_dread",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "skip",
 		"script": "anonymous_i4730z.existential_dread",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -60380,12 +60718,14 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823827546,
+		"edit": 1
 	},
 	{
 		"_id": "anonymous_i4730z.fullsex",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "skip",
 		"script": "anonymous_i4730z.fullsex",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -60396,7 +60736,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558823827546,
+		"edit": 1
 	},
 	{
 		"_id": "anonymous_i4730z.make_hug_it",
@@ -62610,7 +62952,7 @@
 	{
 		"_id": "anonymous_n5dc8l.me",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "skip",
 		"script": "anonymous_n5dc8l.me",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -62621,7 +62963,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558824054037,
+		"edit": 1
 	},
 	{
 		"_id": "anonymous_n78udh.bot_brain",
@@ -70598,7 +70942,7 @@
 	{
 		"_id": "derelict_8zvws8.fishie_tank",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "derelict_8zvws8.fishie_tank",
 		"sector": "VNP_6121",
 		"sec_level": 4,
@@ -70609,7 +70953,12 @@
 				"type": "added",
 				"when": 1558836218335
 			}
-		]
+		],
+		"updt": 1558836226296,
+		"edit": 1,
+		"output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_8zvws8.fishie_tank: script doesn't exist\"}",
+		"last_scrape": 1558859942482,
+		"next_scrape": 1558945004358
 	},
 	{
 		"_id": "derelict_8zvws8.lib",
@@ -71692,7 +72041,7 @@
 	{
 		"_id": "derelict_a3mys1._",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "derelict_a3mys1._",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -71703,7 +72052,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558824054037,
+		"edit": 1
 	},
 	{
 		"_id": "derelict_a3mys1._spider_web_1_",
@@ -71744,7 +72095,7 @@
 	{
 		"_id": "derelict_a3mys1.core",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "derelict_a3mys1.core",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -71755,12 +72106,14 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558824054037,
+		"edit": 1
 	},
 	{
 		"_id": "derelict_a3mys1.deliver_pls",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "derelict_a3mys1.deliver_pls",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -71771,12 +72124,17 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558824054037,
+		"edit": 1,
+		"output": "null",
+		"last_scrape": 1558859702842,
+		"next_scrape": 1558946372601
 	},
 	{
 		"_id": "derelict_a3mys1.hello_please_run_me",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "derelict_a3mys1.hello_please_run_me",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -71787,12 +72145,14 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558824054037,
+		"edit": 1
 	},
 	{
 		"_id": "derelict_a3mys1.mr_botto",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "derelict_a3mys1.mr_botto",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -71803,12 +72163,14 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558824054037,
+		"edit": 1
 	},
 	{
 		"_id": "derelict_a3mys1.the_fun_house",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "derelict_a3mys1.the_fun_house",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -71819,12 +72181,14 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558824054037,
+		"edit": 1
 	},
 	{
 		"_id": "derelict_a3mys1.vc2c7q",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "derelict_a3mys1.vc2c7q",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -71835,12 +72199,14 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558824054037,
+		"edit": 1
 	},
 	{
 		"_id": "derelict_a3mys1.xwz7ja",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "skip",
 		"script": "derelict_a3mys1.xwz7ja",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -71851,7 +72217,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558824054037,
+		"edit": 1
 	},
 	{
 		"_id": "derelict_adeke6.unloader",
@@ -89870,7 +90238,7 @@
 	{
 		"_id": "uknown_b6y9vb.peddle",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "uknown_b6y9vb.peddle",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -89881,7 +90249,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558824054037,
+		"edit": 1
 	},
 	{
 		"_id": "uknown_c55fzo.bot_brain",
@@ -105899,7 +106269,7 @@
 	{
 		"_id": "unidentified_9iklvm.sysview",
 		"type": "fragment",
-		"mode": "player",
+		"mode": "new",
 		"script": "unidentified_9iklvm.sysview",
 		"sector": "HJG_0976",
 		"sec_level": 1,
@@ -105909,13 +106279,102 @@
 			{
 				"type": "added",
 				"when": 1558821408422
-			}
+			},
+			[
+				{
+					"type": "sector change",
+					"when": 1558859972581,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558859983068,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558860002199,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558860032517,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558860042918,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558860052359,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558860062298,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558860072344,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558860081871,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558860092707,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			],
+			[
+				{
+					"type": "sector change",
+					"when": 1558860101856,
+					"from": "HJG_4070",
+					"to": "HJG_0976"
+				}
+			]
 		],
-		"updt": 1558822474683,
-		"edit": 1,
+		"updt": 1558858082489,
+		"edit": 2,
 		"output": "\n`D- VIEW MODE -` To learn more about cull mode, pass {help:true}.",
-		"last_scrape": 1558857950850,
-		"next_scrape": 1558940323077
+		"last_scrape": 1558860022393,
+		"next_scrape": 1558860082393,
+		"scrape_ct": 19
 	},
 	{
 		"_id": "unidentified_9n66o0.calendar_facts",
@@ -111087,7 +111546,7 @@
 	{
 		"_id": "unidentified_jqutgo.s3nd",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "fresh",
 		"script": "unidentified_jqutgo.s3nd",
 		"sector": "VNP_6121",
 		"sec_level": 4,
@@ -111097,6 +111556,57 @@
 			{
 				"type": "added",
 				"when": 1558840590533
+			}
+		],
+		"updt": 1558840733176,
+		"edit": 1,
+		"last_scrape": 1558859951918,
+		"scrape_ct": 20,
+		"next_scrape": 1558860011918,
+		"category": "dice_roller",
+		"last_update": 1558859951918,
+		"output": [
+			{
+				"args": {},
+				"calls": 8403,
+				"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
+				"fragments": [
+					"65E_FI",
+					"5E_FIL",
+					" USER ",
+					"OR | PR",
+					"NETW ER",
+					"ERROR |",
+					"ME ERROR"
+				],
+				"hits": [
+					{
+						"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+						"frags": [
+							"65E_FI",
+							"5E_FIL",
+							" USER ",
+							"OR | PR",
+							"NETW ER",
+							"ERROR |",
+							"ME ERROR"
+						]
+					}
+				]
+			}
+		],
+		"identified": [
+			{
+				"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+				"frags": [
+					"65E_FI",
+					"5E_FIL",
+					" USER ",
+					"OR | PR",
+					"NETW ER",
+					"ERROR |",
+					"ME ERROR"
+				]
 			}
 		]
 	},
@@ -129611,7 +130121,7 @@
 	{
 		"_id": "unknown_d3nr4l.core",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "unknown_d3nr4l.core",
 		"sector": "CHOICE_ZETA_7",
 		"sec_level": 0,
@@ -129622,7 +130132,12 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558824278065,
+		"edit": 1,
+		"output": "null",
+		"last_scrape": 1558859851723,
+		"next_scrape": 1558942593209
 	},
 	{
 		"_id": "unknown_dcm2io.bank",
@@ -138419,7 +138934,7 @@
 	{
 		"_id": "unknown_yn0292.botlocs",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "player",
 		"script": "unknown_yn0292.botlocs",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -138430,12 +138945,17 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558824278065,
+		"edit": 1,
+		"output": "bad grr",
+		"last_scrape": 1558859832775,
+		"next_scrape": 1558951808601
 	},
 	{
 		"_id": "unknown_yn0292.t2glock",
 		"type": "fragment",
-		"mode": "new",
+		"mode": "timeout",
 		"script": "unknown_yn0292.t2glock",
 		"sector": "K_0431",
 		"sec_level": 0,
@@ -138446,7 +138966,9 @@
 				"type": "added",
 				"when": 1558821408422
 			}
-		]
+		],
+		"updt": 1558824278065,
+		"edit": 1
 	},
 	{
 		"_id": "unknown_yw5vzw.net",
