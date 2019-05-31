@@ -1575,20 +1575,20 @@
 		"sector": "K_3429",
 		"sec_level": 4,
 		"date_added": 1559253820162,
-		"last_scraped": 1559254870719,
+		"last_scraped": 1559282729995,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1559253820162
 			}
 		],
-		"next_scrape": 1559299220106,
+		"next_scrape": 1559324941654,
 		"category": "fishie_tank",
-		"last_update": 1559254870719,
+		"last_update": 1559282729995,
 		"output": [
 			{
 				"args": {},
-				"calls": 117292,
+				"calls": 126829,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"CLST0",
@@ -1621,7 +1621,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 8626,
+				"calls": 9647,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -1659,7 +1659,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 101172,
+				"calls": 112878,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"CLST0",
@@ -1689,8 +1689,8 @@
 				]
 			}
 		],
-		"updt": 1559254767985,
-		"edit": 4,
+		"updt": 1559282716642,
+		"edit": 6,
 		"identified": [
 			{
 				"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
@@ -23966,22 +23966,22 @@
 		"sector": "HJG_9790",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559254411191,
+		"last_scraped": 1559282279426,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559227039815,
-		"edit": 17,
-		"next_scrape": 1559294907764,
+		"updt": 1559282265856,
+		"edit": 19,
+		"next_scrape": 1559323976253,
 		"category": "clicker",
-		"last_update": 1559254411191,
+		"last_update": 1559282279426,
 		"output": [
 			{
 				"args": {},
-				"calls": 114907,
+				"calls": 123188,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
 					"ut MOS",
@@ -24011,7 +24011,7 @@
 				"args": {
 					"click": true
 				},
-				"calls": 113667,
+				"calls": 125352,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
 					"ut MOS",
@@ -24041,7 +24041,7 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 13702,
+				"calls": 15093,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
 					"ut MOS",
@@ -29210,22 +29210,22 @@
 		"sector": "HJG_3359",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559255001585,
+		"last_scraped": 1559282839414,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559227490049,
-		"edit": 17,
-		"next_scrape": 1559297330468,
+		"updt": 1559255219455,
+		"edit": 18,
+		"next_scrape": 1559324006595,
 		"category": "clicker",
-		"last_update": 1559255001585,
+		"last_update": 1559282839414,
 		"output": [
 			{
 				"args": {},
-				"calls": 123926,
+				"calls": 133653,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
 					"ROG E",
@@ -29249,7 +29249,7 @@
 				"args": {
 					"click": true
 				},
-				"calls": 119201,
+				"calls": 124068,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
 					"ROG E",
@@ -29273,7 +29273,7 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 14517,
+				"calls": 15988,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
 					"ROG E",
@@ -32545,23 +32545,55 @@
 		"sector": "K_3429",
 		"sec_level": 4,
 		"date_added": 1559281849960,
-		"last_scraped": 1559281969205,
+		"last_scraped": 1559282930193,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1559281849960
 			}
 		],
-		"scrape_ct": 19,
-		"next_scrape": 1559282029205,
+		"scrape_ct": 7,
+		"next_scrape": 1559282990193,
 		"category": "dice_roller",
-		"last_update": 1559281969205,
+		"last_update": 1559282930193,
 		"output": [
 			{
 				"args": {},
-				"calls": 20312,
+				"calls": 140469,
 				"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 				"fragments": [
+					"s tend",
+					"s happ",
+					"and ec",
+					" the n",
+					"ists te",
+					"ing bec",
+					"conomis",
+					"appenin"
+				],
+				"hits": [
+					{
+						"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+						"frags": [
+							"s tend",
+							"s happ",
+							"and ec",
+							" the n",
+							"ists te",
+							"ing bec",
+							"conomis",
+							"appenin"
+						]
+					}
+				]
+			}
+		],
+		"updt": 1559282716642,
+		"edit": 4,
+		"identified": [
+			{
+				"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+				"frags": [
 					"s tend",
 					"s happ",
 					"and ec",
@@ -42863,22 +42895,22 @@
 		"sector": "K_2618",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559254501804,
+		"last_scraped": 1559282359901,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559227265192,
-		"edit": 17,
-		"next_scrape": 1559299912975,
+		"updt": 1559254542667,
+		"edit": 18,
+		"next_scrape": 1559328907226,
 		"category": "clicker",
-		"last_update": 1559254501804,
+		"last_update": 1559282359901,
 		"output": [
 			{
 				"args": {},
-				"calls": 109316,
+				"calls": 121160,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
 					"62 of",
@@ -42910,7 +42942,7 @@
 				"args": {
 					"click": true
 				},
-				"calls": 117700,
+				"calls": 129890,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
 					"62 of",
@@ -42942,7 +42974,7 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 12969,
+				"calls": 14163,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
 					"62 of",
@@ -50066,22 +50098,22 @@
 		"sector": "K_6371",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559255030822,
+		"last_scraped": 1559282890012,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559227490049,
-		"edit": 17,
-		"next_scrape": 1559298552100,
+		"updt": 1559255219455,
+		"edit": 18,
+		"next_scrape": 1559326218774,
 		"category": "clicker",
-		"last_update": 1559255030822,
+		"last_update": 1559282890012,
 		"output": [
 			{
 				"args": {},
-				"calls": 117004,
+				"calls": 125788,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
 					"g 'I,",
@@ -50121,7 +50153,7 @@
 				"args": {
 					"click": true
 				},
-				"calls": 114997,
+				"calls": 123563,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
 					"g 'I,",
@@ -50161,7 +50193,7 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 15931,
+				"calls": 17230,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
 					"g 'I,",
@@ -71257,22 +71289,22 @@
 		"sector": "NGC_9913",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559254690675,
+		"last_scraped": 1559282520106,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559227265192,
-		"edit": 17,
-		"next_scrape": 1559295093253,
+		"updt": 1559254767985,
+		"edit": 18,
+		"next_scrape": 1559322791868,
 		"category": "clicker",
-		"last_update": 1559254690675,
+		"last_update": 1559282520106,
 		"output": [
 			{
 				"args": {},
-				"calls": 93071,
+				"calls": 101634,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
 					"y des",
@@ -71300,7 +71332,7 @@
 				"args": {
 					"click": true
 				},
-				"calls": 106895,
+				"calls": 116334,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
 					"y des",
@@ -71328,7 +71360,7 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 15872,
+				"calls": 17136,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
 					"y des",
@@ -86575,22 +86607,22 @@
 		"sector": "NGC_9913",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559254720556,
+		"last_scraped": 1559282569477,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559227265192,
-		"edit": 16,
-		"next_scrape": 1559294555330,
+		"updt": 1559254767985,
+		"edit": 17,
+		"next_scrape": 1559326600401,
 		"category": "clicker",
-		"last_update": 1559254720556,
+		"last_update": 1559282569477,
 		"output": [
 			{
 				"args": {},
-				"calls": 125641,
+				"calls": 134755,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
 					"hat a",
@@ -86620,7 +86652,7 @@
 				"args": {
 					"click": true
 				},
-				"calls": 121781,
+				"calls": 131641,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
 					"hat a",
@@ -86650,7 +86682,7 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 13782,
+				"calls": 14961,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
 					"hat a",
@@ -87945,39 +87977,55 @@
 		"sector": "K_4868",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559254590385,
+		"last_scraped": 1559282439638,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559227265192,
-		"edit": 16,
-		"next_scrape": 1559295810865,
+		"updt": 1559282491099,
+		"edit": 18,
+		"next_scrape": 1559325189022,
 		"category": "clicker",
-		"last_update": 1559254590385,
+		"last_update": 1559282439638,
 		"output": [
 			{
 				"args": {},
-				"calls": 105396,
+				"calls": 114541,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
-					"h sta",
+					"ning ",
 					" we w",
+					"will w",
+					"soon w",
+					"eginni",
 					"e will",
-					"e 5 beg",
-					"will nee"
+					"ng soon",
+					"l need ",
+					"will nee",
+					"te - wit",
+					"ith stag",
+					"e 5 begi",
+					" need to"
 				],
 				"hits": [
 					{
 						"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
 						"frags": [
-							"h sta",
+							"ning ",
 							" we w",
+							"will w",
+							"soon w",
+							"eginni",
 							"e will",
-							"e 5 beg",
-							"will nee"
+							"ng soon",
+							"l need ",
+							"will nee",
+							"te - wit",
+							"ith stag",
+							"e 5 begi",
+							" need to"
 						]
 					}
 				]
@@ -87986,24 +88034,40 @@
 				"args": {
 					"click": true
 				},
-				"calls": 115692,
+				"calls": 125226,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
-					"h sta",
+					"ning ",
 					" we w",
+					"will w",
+					"soon w",
+					"eginni",
 					"e will",
-					"e 5 beg",
-					"will nee"
+					"ng soon",
+					"l need ",
+					"will nee",
+					"te - wit",
+					"ith stag",
+					"e 5 begi",
+					" need to"
 				],
 				"hits": [
 					{
 						"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
 						"frags": [
-							"h sta",
+							"ning ",
 							" we w",
+							"will w",
+							"soon w",
+							"eginni",
 							"e will",
-							"e 5 beg",
-							"will nee"
+							"ng soon",
+							"l need ",
+							"will nee",
+							"te - wit",
+							"ith stag",
+							"e 5 begi",
+							" need to"
 						]
 					}
 				]
@@ -88012,24 +88076,40 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 13921,
+				"calls": 15208,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
-					"h sta",
+					"ning ",
 					" we w",
+					"will w",
+					"soon w",
+					"eginni",
 					"e will",
-					"e 5 beg",
-					"will nee"
+					"ng soon",
+					"l need ",
+					"will nee",
+					"te - wit",
+					"ith stag",
+					"e 5 begi",
+					" need to"
 				],
 				"hits": [
 					{
 						"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
 						"frags": [
-							"h sta",
+							"ning ",
 							" we w",
+							"will w",
+							"soon w",
+							"eginni",
 							"e will",
-							"e 5 beg",
-							"will nee"
+							"ng soon",
+							"l need ",
+							"will nee",
+							"te - wit",
+							"ith stag",
+							"e 5 begi",
+							" need to"
 						]
 					}
 				]
@@ -88039,11 +88119,19 @@
 			{
 				"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
 				"frags": [
-					"h sta",
+					"ning ",
 					" we w",
+					"will w",
+					"soon w",
+					"eginni",
 					"e will",
-					"e 5 beg",
-					"will nee"
+					"ng soon",
+					"l need ",
+					"will nee",
+					"te - wit",
+					"ith stag",
+					"e 5 begi",
+					" need to"
 				]
 			}
 		]
@@ -125089,22 +125177,22 @@
 		"sector": "K_6019",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559254900595,
+		"last_scraped": 1559282759801,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559227490049,
-		"edit": 16,
-		"next_scrape": 1559297675110,
+		"updt": 1559254994412,
+		"edit": 17,
+		"next_scrape": 1559326865731,
 		"category": "clicker",
-		"last_update": 1559254900595,
+		"last_update": 1559282759801,
 		"output": [
 			{
 				"args": {},
-				"calls": 124917,
+				"calls": 135999,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
 					"mage ",
@@ -125152,7 +125240,7 @@
 				"args": {
 					"click": true
 				},
-				"calls": 116245,
+				"calls": 125561,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
 					"mage ",
@@ -125200,7 +125288,7 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 14293,
+				"calls": 15616,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
 					"mage ",
@@ -129044,22 +129132,22 @@
 		"sector": "NGC_2387",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559255120654,
+		"last_scraped": 1559282999520,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559227714852,
-		"edit": 17,
-		"next_scrape": 1559295793023,
+		"updt": 1559255219455,
+		"edit": 18,
+		"next_scrape": 1559326030219,
 		"category": "clicker",
-		"last_update": 1559255120654,
+		"last_update": 1559282999520,
 		"output": [
 			{
 				"args": {},
-				"calls": 106069,
+				"calls": 115021,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
 					" what",
@@ -129089,7 +129177,7 @@
 				"args": {
 					"click": true
 				},
-				"calls": 118077,
+				"calls": 129829,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
 					" what",
@@ -129119,7 +129207,7 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 14386,
+				"calls": 15643,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
 					" what",
@@ -129306,22 +129394,22 @@
 		"sector": "K_6371",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559255061307,
+		"last_scraped": 1559282920063,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559227490049,
-		"edit": 19,
-		"next_scrape": 1559295552555,
+		"updt": 1559255219455,
+		"edit": 20,
+		"next_scrape": 1559327896024,
 		"category": "clicker",
-		"last_update": 1559255061307,
+		"last_update": 1559282920063,
 		"output": [
 			{
 				"args": {},
-				"calls": 113668,
+				"calls": 122621,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
 					"ode-g",
@@ -129363,7 +129451,7 @@
 				"args": {
 					"click": true
 				},
-				"calls": 109359,
+				"calls": 117763,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
 					"ode-g",
@@ -129405,7 +129493,7 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 14668,
+				"calls": 15823,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
 					"ode-g",
@@ -129692,22 +129780,22 @@
 		"sector": "NGC_9913",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559254751002,
+		"last_scraped": 1559282599288,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559227265192,
-		"edit": 16,
-		"next_scrape": 1559300955245,
+		"updt": 1559254767985,
+		"edit": 17,
+		"next_scrape": 1559327612348,
 		"category": "clicker",
-		"last_update": 1559254751002,
+		"last_update": 1559282599288,
 		"output": [
 			{
 				"args": {},
-				"calls": 113156,
+				"calls": 117744,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
 					" ## h",
@@ -129741,7 +129829,7 @@
 				"args": {
 					"click": true
 				},
-				"calls": 126406,
+				"calls": 136223,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
 					" ## h",
@@ -129775,7 +129863,7 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 14115,
+				"calls": 15373,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
 					" ## h",
@@ -129954,22 +130042,22 @@
 		"sector": "K_3353",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559255210653,
+		"last_scraped": 1559283129887,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559227940040,
-		"edit": 17,
-		"next_scrape": 1559297827859,
+		"updt": 1559255219455,
+		"edit": 18,
+		"next_scrape": 1559327034232,
 		"category": "clicker",
-		"last_update": 1559255210653,
+		"last_update": 1559283129887,
 		"output": [
 			{
 				"args": {},
-				"calls": 101397,
+				"calls": 113410,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
 					"s bet",
@@ -129999,7 +130087,7 @@
 				"args": {
 					"click": true
 				},
-				"calls": 113688,
+				"calls": 126390,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
 					"s bet",
@@ -130029,7 +130117,7 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 14874,
+				"calls": 16148,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
 					"s bet",
@@ -137807,22 +137895,22 @@
 		"sector": "NGC_0779",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559254840613,
+		"last_scraped": 1559282680047,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559227490049,
-		"edit": 18,
-		"next_scrape": 1559300629770,
+		"updt": 1559254994412,
+		"edit": 19,
+		"next_scrape": 1559327912614,
 		"category": "clicker",
-		"last_update": 1559254840613,
+		"last_update": 1559282680047,
 		"output": [
 			{
 				"args": {},
-				"calls": 119427,
+				"calls": 128117,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
 					"uman ",
@@ -137852,7 +137940,7 @@
 				"args": {
 					"click": true
 				},
-				"calls": 112662,
+				"calls": 121934,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
 					"uman ",
@@ -137882,7 +137970,7 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 12323,
+				"calls": 13599,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
 					"uman ",
@@ -141771,23 +141859,59 @@
 		"sector": "K_3429",
 		"sec_level": 4,
 		"date_added": 1559281849960,
-		"last_scraped": 1559281979436,
+		"last_scraped": 1559283099842,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1559281849960
 			}
 		],
-		"scrape_ct": 19,
-		"next_scrape": 1559282039436,
+		"scrape_ct": 5,
+		"next_scrape": 1559283159842,
 		"category": "coin_flipper",
-		"last_update": 1559281979436,
+		"last_update": 1559283099842,
 		"output": [
 			{
 				"args": {},
-				"calls": 18457,
+				"calls": 156462,
 				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 				"fragments": [
+					"E0X2B",
+					"2BC7D",
+					"160 T",
+					"0XF22",
+					"7_FILE0",
+					"7A\\nAD0",
+					"_SECT0XF",
+					"XBF_CLST",
+					"227_FILE",
+					"7D17A\\nAD"
+				],
+				"hits": [
+					{
+						"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+						"frags": [
+							"E0X2B",
+							"2BC7D",
+							"160 T",
+							"0XF22",
+							"7_FILE0",
+							"7A\\nAD0",
+							"_SECT0XF",
+							"XBF_CLST",
+							"227_FILE",
+							"7D17A\\nAD"
+						]
+					}
+				]
+			}
+		],
+		"updt": 1559282716642,
+		"edit": 4,
+		"identified": [
+			{
+				"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+				"frags": [
 					"E0X2B",
 					"2BC7D",
 					"160 T",
@@ -142683,22 +142807,22 @@
 		"sector": "K_4868",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559254620449,
+		"last_scraped": 1559282490439,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559227265192,
-		"edit": 16,
-		"next_scrape": 1559294787644,
+		"updt": 1559282491099,
+		"edit": 18,
+		"next_scrape": 1559326263790,
 		"category": "clicker",
-		"last_update": 1559254620449,
+		"last_update": 1559282490439,
 		"output": [
 			{
 				"args": {},
-				"calls": 113608,
+				"calls": 123321,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
 					"r inc",
@@ -142728,7 +142852,7 @@
 				"args": {
 					"click": true
 				},
-				"calls": 123633,
+				"calls": 133245,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
 					"r inc",
@@ -142758,7 +142882,7 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 13441,
+				"calls": 14667,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
 					"r inc",
@@ -150494,22 +150618,22 @@
 		"sector": "K_6019",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559254951376,
+		"last_scraped": 1559282811054,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559254994412,
-		"edit": 19,
-		"next_scrape": 1559298074609,
+		"updt": 1559255219455,
+		"edit": 20,
+		"next_scrape": 1559323914573,
 		"category": "clicker",
-		"last_update": 1559254951376,
+		"last_update": 1559282811054,
 		"output": [
 			{
 				"args": {},
-				"calls": 117473,
+				"calls": 126465,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
 					"ST ER",
@@ -150679,7 +150803,7 @@
 				"args": {
 					"click": true
 				},
-				"calls": 138421,
+				"calls": 147876,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
 					"ST ER",
@@ -150849,7 +150973,7 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 14499,
+				"calls": 15707,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
 					"ST ER",
@@ -152965,22 +153089,22 @@
 		"sector": "K_3353",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559255242141,
+		"last_scraped": 1559283159613,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559255444821,
-		"edit": 17,
-		"next_scrape": 1559297835904,
+		"updt": 1559255896995,
+		"edit": 18,
+		"next_scrape": 1559326534701,
 		"category": "clicker",
-		"last_update": 1559255242141,
+		"last_update": 1559283159613,
 		"output": [
 			{
 				"args": {},
-				"calls": 106029,
+				"calls": 118153,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
 					"ted im",
@@ -153018,7 +153142,7 @@
 				"args": {
 					"click": true
 				},
-				"calls": 124312,
+				"calls": 137001,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
 					"ted im",
@@ -153056,7 +153180,7 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 13054,
+				"calls": 14501,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
 					"ted im",
@@ -170593,20 +170717,20 @@
 		"sector": "VNP_4735",
 		"sec_level": 4,
 		"date_added": 1558995750910,
-		"last_scraped": 1559255151126,
+		"last_scraped": 1559283049301,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558995750910
 			}
 		],
-		"next_scrape": 1559295931134,
+		"next_scrape": 1559328013074,
 		"category": "fishie_tank",
-		"last_update": 1559255151126,
+		"last_update": 1559283049301,
 		"output": [
 			{
 				"args": {},
-				"calls": 127257,
+				"calls": 136858,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"unny_",
@@ -170646,7 +170770,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 11287,
+				"calls": 12285,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -170691,7 +170815,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 131038,
+				"calls": 142676,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"unny_",
@@ -170728,8 +170852,8 @@
 				]
 			}
 		],
-		"updt": 1559227714852,
-		"edit": 17,
+		"updt": 1559255219455,
+		"edit": 18,
 		"identified": [
 			{
 				"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
@@ -172119,37 +172243,39 @@
 		"sector": "K_9123",
 		"sec_level": 4,
 		"date_added": 1559056905732,
-		"last_scraped": 1559254810875,
+		"last_scraped": 1559282649906,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1559056905732
 			}
 		],
-		"next_scrape": 1559296961397,
+		"next_scrape": 1559323209507,
 		"category": "clicker",
-		"last_update": 1559254810875,
+		"last_update": 1559282649906,
 		"output": [
 			{
 				"args": {},
-				"calls": 105258,
+				"calls": 114266,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
 					"ors |",
 					"nt ov",
-					"ki er",
 					"ent o",
 					"d the",
-					"Y I r",
-					"i | SU",
+					"ajbhan",
 					"Erin. ",
+					" read ",
 					"the fil",
 					"t over,",
 					"read th",
+					"les you",
 					"haviors",
+					"es you ",
 					"e behav",
 					"behavio",
 					" | BODY",
+					" BODY I",
 					"vanced s",
 					"s. Inter",
 					"s you se",
@@ -172160,7 +172286,10 @@
 					"nks. Int",
 					"in. Than",
 					"esting s",
-					"SUBJ Adv"
+					"ari | SU",
+					"aki eraj",
+					"SUBJ Adv",
+					"ODY I re"
 				],
 				"hits": [
 					{
@@ -172168,19 +172297,21 @@
 						"frags": [
 							"ors |",
 							"nt ov",
-							"ki er",
 							"ent o",
 							"d the",
-							"Y I r",
-							"i | SU",
+							"ajbhan",
 							"Erin. ",
+							" read ",
 							"the fil",
 							"t over,",
 							"read th",
+							"les you",
 							"haviors",
+							"es you ",
 							"e behav",
 							"behavio",
 							" | BODY",
+							" BODY I",
 							"vanced s",
 							"s. Inter",
 							"s you se",
@@ -172191,7 +172322,10 @@
 							"nks. Int",
 							"in. Than",
 							"esting s",
-							"SUBJ Adv"
+							"ari | SU",
+							"aki eraj",
+							"SUBJ Adv",
+							"ODY I re"
 						]
 					}
 				]
@@ -172200,24 +172334,26 @@
 				"args": {
 					"click": true
 				},
-				"calls": 100301,
+				"calls": 108741,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
 					"ors |",
 					"nt ov",
-					"ki er",
 					"ent o",
 					"d the",
-					"Y I r",
-					"i | SU",
+					"ajbhan",
 					"Erin. ",
+					" read ",
 					"the fil",
 					"t over,",
 					"read th",
+					"les you",
 					"haviors",
+					"es you ",
 					"e behav",
 					"behavio",
 					" | BODY",
+					" BODY I",
 					"vanced s",
 					"s. Inter",
 					"s you se",
@@ -172228,7 +172364,10 @@
 					"nks. Int",
 					"in. Than",
 					"esting s",
-					"SUBJ Adv"
+					"ari | SU",
+					"aki eraj",
+					"SUBJ Adv",
+					"ODY I re"
 				],
 				"hits": [
 					{
@@ -172236,19 +172375,21 @@
 						"frags": [
 							"ors |",
 							"nt ov",
-							"ki er",
 							"ent o",
 							"d the",
-							"Y I r",
-							"i | SU",
+							"ajbhan",
 							"Erin. ",
+							" read ",
 							"the fil",
 							"t over,",
 							"read th",
+							"les you",
 							"haviors",
+							"es you ",
 							"e behav",
 							"behavio",
 							" | BODY",
+							" BODY I",
 							"vanced s",
 							"s. Inter",
 							"s you se",
@@ -172259,7 +172400,10 @@
 							"nks. Int",
 							"in. Than",
 							"esting s",
-							"SUBJ Adv"
+							"ari | SU",
+							"aki eraj",
+							"SUBJ Adv",
+							"ODY I re"
 						]
 					}
 				]
@@ -172268,24 +172412,26 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 13583,
+				"calls": 14785,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
 					"ors |",
 					"nt ov",
-					"ki er",
 					"ent o",
 					"d the",
-					"Y I r",
-					"i | SU",
+					"ajbhan",
 					"Erin. ",
+					" read ",
 					"the fil",
 					"t over,",
 					"read th",
+					"les you",
 					"haviors",
+					"es you ",
 					"e behav",
 					"behavio",
 					" | BODY",
+					" BODY I",
 					"vanced s",
 					"s. Inter",
 					"s you se",
@@ -172296,7 +172442,10 @@
 					"nks. Int",
 					"in. Than",
 					"esting s",
-					"SUBJ Adv"
+					"ari | SU",
+					"aki eraj",
+					"SUBJ Adv",
+					"ODY I re"
 				],
 				"hits": [
 					{
@@ -172304,19 +172453,21 @@
 						"frags": [
 							"ors |",
 							"nt ov",
-							"ki er",
 							"ent o",
 							"d the",
-							"Y I r",
-							"i | SU",
+							"ajbhan",
 							"Erin. ",
+							" read ",
 							"the fil",
 							"t over,",
 							"read th",
+							"les you",
 							"haviors",
+							"es you ",
 							"e behav",
 							"behavio",
 							" | BODY",
+							" BODY I",
 							"vanced s",
 							"s. Inter",
 							"s you se",
@@ -172327,33 +172478,38 @@
 							"nks. Int",
 							"in. Than",
 							"esting s",
-							"SUBJ Adv"
+							"ari | SU",
+							"aki eraj",
+							"SUBJ Adv",
+							"ODY I re"
 						]
 					}
 				]
 			}
 		],
-		"updt": 1559227940040,
-		"edit": 17,
+		"updt": 1559254994412,
+		"edit": 18,
 		"identified": [
 			{
 				"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
 				"frags": [
 					"ors |",
 					"nt ov",
-					"ki er",
 					"ent o",
 					"d the",
-					"Y I r",
-					"i | SU",
+					"ajbhan",
 					"Erin. ",
+					" read ",
 					"the fil",
 					"t over,",
 					"read th",
+					"les you",
 					"haviors",
+					"es you ",
 					"e behav",
 					"behavio",
 					" | BODY",
+					" BODY I",
 					"vanced s",
 					"s. Inter",
 					"s you se",
@@ -172364,7 +172520,10 @@
 					"nks. Int",
 					"in. Than",
 					"esting s",
-					"SUBJ Adv"
+					"ari | SU",
+					"aki eraj",
+					"SUBJ Adv",
+					"ODY I re"
 				]
 			}
 		]
@@ -176074,22 +176233,22 @@
 		"sector": "K_2618",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559254561115,
+		"last_scraped": 1559282410046,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559227265192,
-		"edit": 18,
-		"next_scrape": 1559299699054,
+		"updt": 1559254767985,
+		"edit": 19,
+		"next_scrape": 1559325374862,
 		"category": "clicker",
-		"last_update": 1559254561115,
+		"last_update": 1559282410046,
 		"output": [
 			{
 				"args": {},
-				"calls": 123147,
+				"calls": 127656,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
 					"pile ",
@@ -176135,7 +176294,7 @@
 				"args": {
 					"click": true
 				},
-				"calls": 102895,
+				"calls": 112331,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
 					"pile ",
@@ -176181,7 +176340,7 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 14207,
+				"calls": 15399,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
 					"pile ",
@@ -176255,22 +176414,22 @@
 		"sector": "K_8425",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559254470765,
+		"last_scraped": 1559282329342,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559227265192,
-		"edit": 20,
-		"next_scrape": 1559298637804,
+		"updt": 1559254542667,
+		"edit": 21,
+		"next_scrape": 1559322939886,
 		"category": "clicker",
-		"last_update": 1559254470765,
+		"last_update": 1559282329342,
 		"output": [
 			{
 				"args": {},
-				"calls": 109878,
+				"calls": 114384,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
 					" do t",
@@ -176334,7 +176493,7 @@
 				"args": {
 					"click": true
 				},
-				"calls": 118038,
+				"calls": 122716,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
 					" do t",
@@ -176398,7 +176557,7 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 14647,
+				"calls": 15766,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
 					" do t",
