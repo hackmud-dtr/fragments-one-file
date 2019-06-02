@@ -6147,20 +6147,20 @@
 		"sector": "NGC_0878",
 		"sec_level": 4,
 		"date_added": 1559370273716,
-		"last_scraped": 1559423378410,
+		"last_scraped": 1559453323311,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1559370273716
 			}
 		],
-		"next_scrape": 1559463453242,
+		"next_scrape": 1559497677213,
 		"category": "fishie_tank",
-		"last_update": 1559423378410,
+		"last_update": 1559453323311,
 		"output": [
 			{
 				"args": {},
-				"calls": 128114,
+				"calls": 140041,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"100 1",
@@ -6188,7 +6188,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 12217,
+				"calls": 13030,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -6221,7 +6221,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 123749,
+				"calls": 133153,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"100 1",
@@ -6259,8 +6259,8 @@
 				]
 			}
 		],
-		"updt": 1559397434178,
-		"edit": 7
+		"updt": 1559423569297,
+		"edit": 8
 	},
 	{
 		"_id": "abandoned_91r1ya.purchase",
@@ -7992,22 +7992,22 @@
 		"sector": "K_0887",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559422837900,
+		"last_scraped": 1559452672728,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559396758259,
-		"edit": 33,
-		"next_scrape": 1559469176740,
+		"updt": 1559422891905,
+		"edit": 34,
+		"next_scrape": 1559493906183,
 		"category": "dice_roller",
-		"last_update": 1559422837900,
+		"last_update": 1559452672728,
 		"output": [
 			{
 				"args": {},
-				"calls": 289793,
+				"calls": 301786,
 				"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 				"fragments": [
 					"ody m",
@@ -10765,7 +10765,7 @@
 		"sector": "SPC_5497",
 		"sec_level": 0,
 		"date_added": 1558821408422,
-		"last_scraped": 1559422818982,
+		"last_scraped": 1559452652709,
 		"script_log": [
 			{
 				"type": "added",
@@ -10784,10 +10784,10 @@
 				}
 			]
 		],
-		"updt": 1559396758259,
-		"edit": 16,
+		"updt": 1559422891905,
+		"edit": 17,
 		"output": "Cannot convert undefined or null to object",
-		"next_scrape": 1559514510638,
+		"next_scrape": 1559544389711,
 		"pl_output": "Cannot convert undefined or null to object"
 	},
 	{
@@ -13792,6 +13792,137 @@
 				]
 			}
 		]
+	},
+	{
+		"_id": "abandoned_k8ecpy.shfflr_master_key",
+		"type": "fragment",
+		"mode": "fresh",
+		"script": "abandoned_k8ecpy.shfflr_master_key",
+		"sector": "VNP_3574",
+		"sec_level": 4,
+		"date_added": 1559452932587,
+		"last_scraped": 1559453272849,
+		"script_log": [
+			{
+				"type": "added",
+				"when": 1559452932587
+			}
+		],
+		"scrape_ct": 12,
+		"next_scrape": 1559453332849,
+		"category": "fishie_tank",
+		"last_update": 1559453272849,
+		"output": [
+			{
+				"args": {},
+				"calls": 41372,
+				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+				"fragments": [
+					"const",
+					"betwe",
+					"ructed",
+					"itiona",
+					"eoreti",
+					"lish a ",
+					"ional' o"
+				],
+				"hits": [
+					{
+						"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+						"frags": [
+							"const",
+							"betwe",
+							"ructed",
+							"itiona",
+							"eoreti",
+							"lish a ",
+							"ional' o"
+						]
+					}
+				]
+			},
+			{
+				"args": {
+					"do": "feed"
+				},
+				"calls": 3636,
+				"base": [
+					"Fishies are happy.",
+					"actuly they look fine",
+					"they are still hungry?",
+					"they don't look so good"
+				],
+				"fragments": [
+					"const",
+					"betwe",
+					"ructed",
+					"itiona",
+					"eoreti",
+					"lish a ",
+					"ional' o"
+				],
+				"hits": [
+					{
+						"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+						"frags": [
+							"const",
+							"betwe",
+							"ructed",
+							"itiona",
+							"eoreti",
+							"lish a ",
+							"ional' o"
+						]
+					}
+				]
+			},
+			{
+				"args": {
+					"do": "clean"
+				},
+				"calls": 37941,
+				"base": "Fishies are happy. Algea eaters are displeased.",
+				"fragments": [
+					"const",
+					"betwe",
+					"ructed",
+					"itiona",
+					"eoreti",
+					"lish a ",
+					"ional' o"
+				],
+				"hits": [
+					{
+						"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+						"frags": [
+							"const",
+							"betwe",
+							"ructed",
+							"itiona",
+							"eoreti",
+							"lish a ",
+							"ional' o"
+						]
+					}
+				]
+			}
+		],
+		"identified": [
+			{
+				"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+				"frags": [
+					"const",
+					"betwe",
+					"ructed",
+					"itiona",
+					"eoreti",
+					"lish a ",
+					"ional' o"
+				]
+			}
+		],
+		"updt": 1559453105107,
+		"edit": 1
 	},
 	{
 		"_id": "abandoned_ky06lh.bot_brain",
@@ -25610,20 +25741,20 @@
 		"sector": "K_3429",
 		"sec_level": 4,
 		"date_added": 1559205157444,
-		"last_scraped": 1559423278754,
+		"last_scraped": 1559453152758,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1559205157444
 			}
 		],
-		"next_scrape": 1559465552847,
+		"next_scrape": 1559497109445,
 		"category": "clicker",
-		"last_update": 1559423278754,
+		"last_update": 1559453152758,
 		"output": [
 			{
 				"args": {},
-				"calls": 158360,
+				"calls": 170181,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
 					"CLST0",
@@ -25653,7 +25784,7 @@
 				"args": {
 					"click": true
 				},
-				"calls": 157555,
+				"calls": 169927,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
 					"CLST0",
@@ -25683,7 +25814,7 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 21501,
+				"calls": 22684,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
 					"CLST0",
@@ -25710,8 +25841,8 @@
 				]
 			}
 		],
-		"updt": 1559397209065,
-		"edit": 11,
+		"updt": 1559423343209,
+		"edit": 12,
 		"identified": [
 			{
 				"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
@@ -35548,22 +35679,22 @@
 		"sector": "K_9339",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559423028164,
+		"last_scraped": 1559452862258,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559396984006,
-		"edit": 35,
-		"next_scrape": 1559469603762,
+		"updt": 1559423117799,
+		"edit": 36,
+		"next_scrape": 1559492534450,
 		"category": "coin_flipper",
-		"last_update": 1559423028164,
+		"last_update": 1559452862258,
 		"output": [
 			{
 				"args": {},
-				"calls": 291212,
+				"calls": 301879,
 				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 				"fragments": [
 					"n emp",
@@ -38407,22 +38538,22 @@
 		"sector": "HJG_6180",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559422669053,
+		"last_scraped": 1559452462763,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559422666984,
-		"edit": 29,
-		"next_scrape": 1559467158782,
+		"updt": 1559422891905,
+		"edit": 30,
+		"next_scrape": 1559495330984,
 		"category": "fishie_tank",
-		"last_update": 1559422669053,
+		"last_update": 1559452462763,
 		"output": [
 			{
 				"args": {},
-				"calls": 182093,
+				"calls": 192839,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"y put",
@@ -38458,7 +38589,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 17136,
+				"calls": 18092,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -38499,7 +38630,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 212108,
+				"calls": 224091,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"y put",
@@ -39660,22 +39791,22 @@
 		"sector": "VNP_1327",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559423338289,
+		"last_scraped": 1559453243013,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559397434178,
-		"edit": 28,
-		"next_scrape": 1559468874085,
+		"updt": 1559423343209,
+		"edit": 29,
+		"next_scrape": 1559492926343,
 		"category": "fishie_tank",
-		"last_update": 1559423338289,
+		"last_update": 1559453243013,
 		"output": [
 			{
 				"args": {},
-				"calls": 195653,
+				"calls": 204481,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"erles",
@@ -39707,7 +39838,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 17946,
+				"calls": 18708,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -39744,7 +39875,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 204889,
+				"calls": 209718,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"erles",
@@ -43107,22 +43238,22 @@
 		"sector": "K_8333",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559422927552,
+		"last_scraped": 1559452762944,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559396758259,
-		"edit": 28,
-		"next_scrape": 1559468630859,
+		"updt": 1559423117799,
+		"edit": 29,
+		"next_scrape": 1559492780110,
 		"category": "fishie_tank",
-		"last_update": 1559422927552,
+		"last_update": 1559452762944,
 		"output": [
 			{
 				"args": {},
-				"calls": 203038,
+				"calls": 211967,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"tor d",
@@ -43160,7 +43291,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 16583,
+				"calls": 17399,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -43203,7 +43334,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 204751,
+				"calls": 215756,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"tor d",
@@ -47234,22 +47365,22 @@
 		"sector": "VNP_2959",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559422757960,
+		"last_scraped": 1559452592855,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559396758259,
-		"edit": 30,
-		"next_scrape": 1559465821644,
+		"updt": 1559422891905,
+		"edit": 31,
+		"next_scrape": 1559495390518,
 		"category": "fishie_tank",
-		"last_update": 1559422757960,
+		"last_update": 1559452592855,
 		"output": [
 			{
 				"args": {},
-				"calls": 201419,
+				"calls": 218141,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"I wil",
@@ -47293,7 +47424,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 16974,
+				"calls": 18301,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -47342,7 +47473,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 219724,
+				"calls": 231921,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"I wil",
@@ -70369,8 +70500,8 @@
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559422442171,
-		"edit": 35,
+		"updt": 1559452198633,
+		"edit": 36,
 		"next_scrape": 1559497207136,
 		"category": "coin_flipper",
 		"last_update": 1559452151684,
@@ -70400,13 +70531,18 @@
 						"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
 						"frags": [
 							"were ",
+							", I s",
 							"stand.",
 							" of wh",
-							"tal, I ",
+							" is so",
 							"ntiment",
 							"nd. I'm",
 							"how the",
+							"uppose. ",
 							"t a litt",
+							"sentimen",
+							"ntal, I ",
+							"nk - whe",
 							"here the"
 						]
 					}
@@ -70418,13 +70554,18 @@
 				"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
 				"frags": [
 					"were ",
+					", I s",
 					"stand.",
 					" of wh",
-					"tal, I ",
+					" is so",
 					"ntiment",
 					"nd. I'm",
 					"how the",
+					"uppose. ",
 					"t a litt",
+					"sentimen",
+					"ntal, I ",
+					"nk - whe",
 					"here the"
 				]
 			}
@@ -72237,22 +72378,22 @@
 		"sector": "SPC_5837",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559423307904,
+		"last_scraped": 1559453212643,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559397209065,
-		"edit": 26,
-		"next_scrape": 1559464375687,
+		"updt": 1559423343209,
+		"edit": 27,
+		"next_scrape": 1559493012504,
 		"category": "fishie_tank",
-		"last_update": 1559423307904,
+		"last_update": 1559453212643,
 		"output": [
 			{
 				"args": {},
-				"calls": 192994,
+				"calls": 204980,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"sourc",
@@ -72286,7 +72427,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 17130,
+				"calls": 17929,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -72325,7 +72466,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 201616,
+				"calls": 210800,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"sourc",
@@ -76545,7 +76686,7 @@
 		"sector": "VNP_9438",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559452423321,
+		"last_scraped": 1559452432119,
 		"script_log": [
 			{
 				"type": "added",
@@ -76554,13 +76695,13 @@
 		],
 		"updt": 1559422891905,
 		"edit": 38,
-		"next_scrape": 1559496114527,
+		"next_scrape": 1559493418983,
 		"category": "coin_flipper",
-		"last_update": 1559422638365,
+		"last_update": 1559452432119,
 		"output": [
 			{
 				"args": {},
-				"calls": 299043,
+				"calls": 320717,
 				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 				"fragments": [
 					"yourse",
@@ -82474,16 +82615,16 @@
 		"sector": "SPC_4030",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559423037670,
+		"last_scraped": 1559452872859,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559396984006,
-		"edit": 34,
-		"next_scrape": 1559469348803,
+		"updt": 1559423117799,
+		"edit": 35,
+		"next_scrape": 1559496399432,
 		"category": "dice_roller",
 		"last_update": 1559423037670,
 		"output": [
@@ -85586,8 +85727,8 @@
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559422891905,
-		"edit": 39,
+		"updt": 1559452424221,
+		"edit": 40,
 		"next_scrape": 1559497508007,
 		"category": "coin_flipper",
 		"last_update": 1559452302382,
@@ -85657,21 +85798,21 @@
 							"ain. ",
 							". Sor",
 							" an u",
+							"ses. P",
 							"s stuf",
-							"rgradu",
-							"ot sur",
 							"ns. Ho",
 							"n. I'm",
 							"ke an ",
 							"in. I'",
 							"ght be",
 							"e feel",
+							"aduate",
 							"Patter",
 							"Or phr",
-							". Or p",
+							"- this",
 							" Patte",
-							"y, 'ana",
 							"tly, 'a",
+							"t sure ",
 							"s. Patt",
 							"rry - t",
 							"nalogie",
@@ -85679,19 +85820,23 @@
 							"f makes",
 							"erns. H",
 							"alogies",
+							". Or ph",
 							" this s",
 							" might ",
 							" me fee",
 							" Sorry ",
 							" 'analo",
+							"y, 'anal",
 							"tuff mak",
 							"the best",
 							"te again",
 							"t be the",
 							"ry - thi",
 							"phrases.",
+							"not sure",
 							"nestly, ",
 							"kes me f",
+							"dergradu",
 							"I'm not ",
 							" undergr",
 							" stuff m",
@@ -85712,21 +85857,21 @@
 					"ain. ",
 					". Sor",
 					" an u",
+					"ses. P",
 					"s stuf",
-					"rgradu",
-					"ot sur",
 					"ns. Ho",
 					"n. I'm",
 					"ke an ",
 					"in. I'",
 					"ght be",
 					"e feel",
+					"aduate",
 					"Patter",
 					"Or phr",
-					". Or p",
+					"- this",
 					" Patte",
-					"y, 'ana",
 					"tly, 'a",
+					"t sure ",
 					"s. Patt",
 					"rry - t",
 					"nalogie",
@@ -85734,19 +85879,23 @@
 					"f makes",
 					"erns. H",
 					"alogies",
+					". Or ph",
 					" this s",
 					" might ",
 					" me fee",
 					" Sorry ",
 					" 'analo",
+					"y, 'anal",
 					"tuff mak",
 					"the best",
 					"te again",
 					"t be the",
 					"ry - thi",
 					"phrases.",
+					"not sure",
 					"nestly, ",
 					"kes me f",
+					"dergradu",
 					"I'm not ",
 					" undergr",
 					" stuff m",
@@ -89978,58 +90127,62 @@
 		"sector": "NGC_5928",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559422087161,
+		"last_scraped": 1559451862330,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559422216956,
-		"edit": 37,
-		"next_scrape": 1559463731055,
+		"updt": 1559451973693,
+		"edit": 39,
+		"next_scrape": 1559497504301,
 		"category": "dice_roller",
-		"last_update": 1559422087161,
+		"last_update": 1559451862330,
 		"output": [
 			{
 				"args": {},
-				"calls": 282184,
+				"calls": 293314,
 				"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 				"fragments": [
+					"ve in",
 					"e in ",
 					". She",
 					" know",
 					"the ne",
-					"that M",
 					"rk. Sh",
 					"networ",
-					"he's b",
-					"eve th",
 					"? ## W",
-					" to be",
 					" She's",
 					"what? #",
 					"w for s",
 					"ve reas",
 					"twork. ",
+					"s activ",
 					"now wha",
 					"hat? ##",
 					"e have ",
 					"e ## Kn",
 					"at? ## ",
+					"She's b",
 					"Mallory",
-					" reason",
+					" to bel",
 					"to belie",
+					"that Mal",
 					"son to b",
 					"r sure #",
 					"ow what?",
 					"ory is a",
 					"now for ",
 					"lory is ",
+					"lieve th",
 					"he netwo",
 					"for sure",
 					"eason to",
+					"e reason",
 					"active i",
+					"## Know ",
+					" that Ma",
 					" sure ##",
 					" is acti"
 				],
@@ -90037,40 +90190,44 @@
 					{
 						"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
 						"frags": [
+							"ve in",
 							"e in ",
 							". She",
 							" know",
 							"the ne",
-							"that M",
 							"rk. Sh",
 							"networ",
-							"he's b",
-							"eve th",
 							"? ## W",
-							" to be",
 							" She's",
 							"what? #",
 							"w for s",
 							"ve reas",
 							"twork. ",
+							"s activ",
 							"now wha",
 							"hat? ##",
 							"e have ",
 							"e ## Kn",
 							"at? ## ",
+							"She's b",
 							"Mallory",
-							" reason",
+							" to bel",
 							"to belie",
+							"that Mal",
 							"son to b",
 							"r sure #",
 							"ow what?",
 							"ory is a",
 							"now for ",
 							"lory is ",
+							"lieve th",
 							"he netwo",
 							"for sure",
 							"eason to",
+							"e reason",
 							"active i",
+							"## Know ",
+							" that Ma",
 							" sure ##",
 							" is acti"
 						]
@@ -90082,40 +90239,44 @@
 			{
 				"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
 				"frags": [
+					"ve in",
 					"e in ",
 					". She",
 					" know",
 					"the ne",
-					"that M",
 					"rk. Sh",
 					"networ",
-					"he's b",
-					"eve th",
 					"? ## W",
-					" to be",
 					" She's",
 					"what? #",
 					"w for s",
 					"ve reas",
 					"twork. ",
+					"s activ",
 					"now wha",
 					"hat? ##",
 					"e have ",
 					"e ## Kn",
 					"at? ## ",
+					"She's b",
 					"Mallory",
-					" reason",
+					" to bel",
 					"to belie",
+					"that Mal",
 					"son to b",
 					"r sure #",
 					"ow what?",
 					"ory is a",
 					"now for ",
 					"lory is ",
+					"lieve th",
 					"he netwo",
 					"for sure",
 					"eason to",
+					"e reason",
 					"active i",
+					"## Know ",
+					" that Ma",
 					" sure ##",
 					" is acti"
 				]
@@ -91948,22 +92109,22 @@
 		"sector": "K_9469",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559423239122,
+		"last_scraped": 1559453112555,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559397209065,
-		"edit": 34,
-		"next_scrape": 1559465854059,
+		"updt": 1559423343209,
+		"edit": 35,
+		"next_scrape": 1559494898015,
 		"category": "dice_roller",
-		"last_update": 1559423239122,
+		"last_update": 1559453112555,
 		"output": [
 			{
 				"args": {},
-				"calls": 287006,
+				"calls": 305293,
 				"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 				"fragments": [
 					"human",
@@ -96756,22 +96917,22 @@
 		"sector": "K_8333",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559422957490,
+		"last_scraped": 1559452792512,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559396984006,
-		"edit": 27,
-		"next_scrape": 1559467160300,
+		"updt": 1559423117799,
+		"edit": 28,
+		"next_scrape": 1559495728647,
 		"category": "fishie_tank",
-		"last_update": 1559422957490,
+		"last_update": 1559452792512,
 		"output": [
 			{
 				"args": {},
-				"calls": 189312,
+				"calls": 198686,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"was ye",
@@ -96799,7 +96960,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 17463,
+				"calls": 18259,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -96832,7 +96993,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 209194,
+				"calls": 220330,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"was ye",
@@ -97478,22 +97639,22 @@
 		"sector": "NGC_9559",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559422867928,
+		"last_scraped": 1559452702473,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559396758259,
-		"edit": 29,
-		"next_scrape": 1559463409128,
+		"updt": 1559422891905,
+		"edit": 30,
+		"next_scrape": 1559498027371,
 		"category": "fishie_tank",
-		"last_update": 1559422867928,
+		"last_update": 1559452702473,
 		"output": [
 			{
 				"args": {},
-				"calls": 191531,
+				"calls": 203442,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"E You",
@@ -97547,7 +97708,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 17342,
+				"calls": 18175,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -97606,7 +97767,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 192840,
+				"calls": 201793,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"E You",
@@ -108681,22 +108842,22 @@
 		"sector": "HJG_2462",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559422778327,
+		"last_scraped": 1559452613353,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559396758259,
-		"edit": 33,
-		"next_scrape": 1559467445507,
+		"updt": 1559422891905,
+		"edit": 34,
+		"next_scrape": 1559494176176,
 		"category": "dice_roller",
-		"last_update": 1559422778327,
+		"last_update": 1559452613353,
 		"output": [
 			{
 				"args": {},
-				"calls": 293533,
+				"calls": 300912,
 				"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 				"fragments": [
 					"ll ne",
@@ -111292,22 +111453,22 @@
 		"sector": "K_2659",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559422768264,
+		"last_scraped": 1559452603193,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559396758259,
-		"edit": 34,
-		"next_scrape": 1559467956985,
+		"updt": 1559422891905,
+		"edit": 35,
+		"next_scrape": 1559496672621,
 		"category": "coin_flipper",
-		"last_update": 1559422768264,
+		"last_update": 1559452603193,
 		"output": [
 			{
 				"args": {},
-				"calls": 294834,
+				"calls": 307003,
 				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 				"fragments": [
 					" SOUN",
@@ -112235,29 +112396,29 @@
 		"sector": "HJG_5405",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559422167330,
+		"last_scraped": 1559451952585,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559396082590,
-		"edit": 30,
-		"next_scrape": 1559466465506,
+		"updt": 1559451973693,
+		"edit": 32,
+		"next_scrape": 1559491896330,
 		"category": "fishie_tank",
-		"last_update": 1559422167330,
+		"last_update": 1559451952585,
 		"output": [
 			{
 				"args": {},
-				"calls": 189680,
+				"calls": 199190,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
-					"XEEF90",
-					"6_FILE",
-					"SYST ER",
 					"RROR | ",
+					"6_FILE0",
+					"0XEEF90",
 					"YST ERRO",
+					"XEEF902D",
 					"T ERROR ",
 					"ST ERROR",
 					"ILE0XEEF",
@@ -112266,6 +112427,7 @@
 					"D6\\nSYST",
 					"6\\nSYST ",
 					" ERROR |",
+					"\\nSYST ER",
 					"F902D6\\nS",
 					"02D6\\nSYS"
 				],
@@ -112273,7 +112435,8 @@
 					{
 						"document": "NOT FOUND",
 						"frags": [
-							"XEEF90",
+							"0XEEF90",
+							"XEEF902D",
 							"ILE0XEEF",
 							"FILE0XEE",
 							"EEF902D6",
@@ -112286,217 +112449,216 @@
 					{
 						"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
 						"frags": [
-							"6_FILE",
-							"SYST ER",
 							"RROR | ",
+							"6_FILE0",
 							"YST ERRO",
 							"T ERROR ",
 							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
+							" ERROR |",
+							"\\nSYST ER"
 						]
 					},
 					{
 						"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
 						"frags": [
-							"SYST ER",
 							"RROR | ",
 							"YST ERRO",
 							"T ERROR ",
 							"ST ERROR",
-							" ERROR |"
+							" ERROR |",
+							"\\nSYST ER"
 						]
 					},
 					{
 						"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
 						"frags": [
-							"SYST ER",
 							"RROR | ",
 							"YST ERRO",
 							"T ERROR ",
 							"ST ERROR",
-							" ERROR |"
+							" ERROR |",
+							"\\nSYST ER"
 						]
 					},
 					{
 						"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
 						"frags": [
-							"SYST ER",
 							"RROR | ",
 							"YST ERRO",
 							"T ERROR ",
 							"ST ERROR",
-							" ERROR |"
+							" ERROR |",
+							"\\nSYST ER"
 						]
 					},
 					{
 						"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
 						"frags": [
-							"SYST ER",
 							"RROR | ",
 							"YST ERRO",
 							"T ERROR ",
 							"ST ERROR",
-							" ERROR |"
+							" ERROR |",
+							"\\nSYST ER"
 						]
 					},
 					{
 						"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
 						"frags": [
-							"SYST ER",
 							"RROR | ",
 							"YST ERRO",
 							"T ERROR ",
 							"ST ERROR",
-							" ERROR |"
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
 						]
 					},
 					{
 						"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
 						"frags": [
-							"SYST ER",
 							"RROR | ",
 							"YST ERRO",
 							"T ERROR ",
 							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "Essence",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "Erin File",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
+							" ERROR |",
+							"\\nSYST ER"
 						]
 					},
 					{
 						"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
 						"frags": [
-							"SYST ER",
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "Essence",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "Erin File",
+						"frags": [
 							"RROR | ",
 							"YST ERRO",
 							"T ERROR ",
@@ -112510,7 +112672,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 15917,
+				"calls": 16807,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -112518,11 +112680,11 @@
 					"they don't look so good"
 				],
 				"fragments": [
-					"XEEF90",
-					"6_FILE",
-					"SYST ER",
 					"RROR | ",
+					"6_FILE0",
+					"0XEEF90",
 					"YST ERRO",
+					"XEEF902D",
 					"T ERROR ",
 					"ST ERROR",
 					"ILE0XEEF",
@@ -112531,6 +112693,7 @@
 					"D6\\nSYST",
 					"6\\nSYST ",
 					" ERROR |",
+					"\\nSYST ER",
 					"F902D6\\nS",
 					"02D6\\nSYS"
 				],
@@ -112538,7 +112701,8 @@
 					{
 						"document": "NOT FOUND",
 						"frags": [
-							"XEEF90",
+							"0XEEF90",
+							"XEEF902D",
 							"ILE0XEEF",
 							"FILE0XEE",
 							"EEF902D6",
@@ -112551,217 +112715,216 @@
 					{
 						"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
 						"frags": [
-							"6_FILE",
-							"SYST ER",
 							"RROR | ",
+							"6_FILE0",
 							"YST ERRO",
 							"T ERROR ",
 							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
+							" ERROR |",
+							"\\nSYST ER"
 						]
 					},
 					{
 						"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
 						"frags": [
-							"SYST ER",
 							"RROR | ",
 							"YST ERRO",
 							"T ERROR ",
 							"ST ERROR",
-							" ERROR |"
+							" ERROR |",
+							"\\nSYST ER"
 						]
 					},
 					{
 						"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
 						"frags": [
-							"SYST ER",
 							"RROR | ",
 							"YST ERRO",
 							"T ERROR ",
 							"ST ERROR",
-							" ERROR |"
+							" ERROR |",
+							"\\nSYST ER"
 						]
 					},
 					{
 						"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
 						"frags": [
-							"SYST ER",
 							"RROR | ",
 							"YST ERRO",
 							"T ERROR ",
 							"ST ERROR",
-							" ERROR |"
+							" ERROR |",
+							"\\nSYST ER"
 						]
 					},
 					{
 						"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
 						"frags": [
-							"SYST ER",
 							"RROR | ",
 							"YST ERRO",
 							"T ERROR ",
 							"ST ERROR",
-							" ERROR |"
+							" ERROR |",
+							"\\nSYST ER"
 						]
 					},
 					{
 						"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
 						"frags": [
-							"SYST ER",
 							"RROR | ",
 							"YST ERRO",
 							"T ERROR ",
 							"ST ERROR",
-							" ERROR |"
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
 						]
 					},
 					{
 						"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
 						"frags": [
-							"SYST ER",
 							"RROR | ",
 							"YST ERRO",
 							"T ERROR ",
 							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "Essence",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "Erin File",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
+							" ERROR |",
+							"\\nSYST ER"
 						]
 					},
 					{
 						"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
 						"frags": [
-							"SYST ER",
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "Essence",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "Erin File",
+						"frags": [
 							"RROR | ",
 							"YST ERRO",
 							"T ERROR ",
@@ -112775,14 +112938,14 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 201108,
+				"calls": 211728,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
-					"XEEF90",
-					"6_FILE",
-					"SYST ER",
 					"RROR | ",
+					"6_FILE0",
+					"0XEEF90",
 					"YST ERRO",
+					"XEEF902D",
 					"T ERROR ",
 					"ST ERROR",
 					"ILE0XEEF",
@@ -112791,6 +112954,7 @@
 					"D6\\nSYST",
 					"6\\nSYST ",
 					" ERROR |",
+					"\\nSYST ER",
 					"F902D6\\nS",
 					"02D6\\nSYS"
 				],
@@ -112798,7 +112962,8 @@
 					{
 						"document": "NOT FOUND",
 						"frags": [
-							"XEEF90",
+							"0XEEF90",
+							"XEEF902D",
 							"ILE0XEEF",
 							"FILE0XEE",
 							"EEF902D6",
@@ -112811,217 +112976,216 @@
 					{
 						"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
 						"frags": [
-							"6_FILE",
-							"SYST ER",
 							"RROR | ",
+							"6_FILE0",
 							"YST ERRO",
 							"T ERROR ",
 							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
+							" ERROR |",
+							"\\nSYST ER"
 						]
 					},
 					{
 						"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
 						"frags": [
-							"SYST ER",
 							"RROR | ",
 							"YST ERRO",
 							"T ERROR ",
 							"ST ERROR",
-							" ERROR |"
+							" ERROR |",
+							"\\nSYST ER"
 						]
 					},
 					{
 						"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
 						"frags": [
-							"SYST ER",
 							"RROR | ",
 							"YST ERRO",
 							"T ERROR ",
 							"ST ERROR",
-							" ERROR |"
+							" ERROR |",
+							"\\nSYST ER"
 						]
 					},
 					{
 						"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
 						"frags": [
-							"SYST ER",
 							"RROR | ",
 							"YST ERRO",
 							"T ERROR ",
 							"ST ERROR",
-							" ERROR |"
+							" ERROR |",
+							"\\nSYST ER"
 						]
 					},
 					{
 						"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
 						"frags": [
-							"SYST ER",
 							"RROR | ",
 							"YST ERRO",
 							"T ERROR ",
 							"ST ERROR",
-							" ERROR |"
+							" ERROR |",
+							"\\nSYST ER"
 						]
 					},
 					{
 						"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
 						"frags": [
-							"SYST ER",
 							"RROR | ",
 							"YST ERRO",
 							"T ERROR ",
 							"ST ERROR",
-							" ERROR |"
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
 						]
 					},
 					{
 						"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
 						"frags": [
-							"SYST ER",
 							"RROR | ",
 							"YST ERRO",
 							"T ERROR ",
 							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "Essence",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
-						]
-					},
-					{
-						"document": "Erin File",
-						"frags": [
-							"SYST ER",
-							"RROR | ",
-							"YST ERRO",
-							"T ERROR ",
-							"ST ERROR",
-							" ERROR |"
+							" ERROR |",
+							"\\nSYST ER"
 						]
 					},
 					{
 						"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
 						"frags": [
-							"SYST ER",
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "Essence",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+						"frags": [
+							"RROR | ",
+							"YST ERRO",
+							"T ERROR ",
+							"ST ERROR",
+							" ERROR |",
+							"\\nSYST ER"
+						]
+					},
+					{
+						"document": "Erin File",
+						"frags": [
 							"RROR | ",
 							"YST ERRO",
 							"T ERROR ",
@@ -113036,7 +113200,8 @@
 			{
 				"document": "NOT FOUND",
 				"frags": [
-					"XEEF90",
+					"0XEEF90",
+					"XEEF902D",
 					"ILE0XEEF",
 					"FILE0XEE",
 					"EEF902D6",
@@ -113049,217 +113214,216 @@
 			{
 				"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
 				"frags": [
-					"6_FILE",
-					"SYST ER",
 					"RROR | ",
+					"6_FILE0",
 					"YST ERRO",
 					"T ERROR ",
 					"ST ERROR",
-					" ERROR |"
-				]
-			},
-			{
-				"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
-				"frags": [
-					"SYST ER",
-					"RROR | ",
-					"YST ERRO",
-					"T ERROR ",
-					"ST ERROR",
-					" ERROR |"
-				]
-			},
-			{
-				"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
-				"frags": [
-					"SYST ER",
-					"RROR | ",
-					"YST ERRO",
-					"T ERROR ",
-					"ST ERROR",
-					" ERROR |"
+					" ERROR |",
+					"\\nSYST ER"
 				]
 			},
 			{
 				"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
 				"frags": [
-					"SYST ER",
 					"RROR | ",
 					"YST ERRO",
 					"T ERROR ",
 					"ST ERROR",
-					" ERROR |"
+					" ERROR |",
+					"\\nSYST ER"
 				]
 			},
 			{
 				"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
 				"frags": [
-					"SYST ER",
 					"RROR | ",
 					"YST ERRO",
 					"T ERROR ",
 					"ST ERROR",
-					" ERROR |"
+					" ERROR |",
+					"\\nSYST ER"
 				]
 			},
 			{
 				"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
 				"frags": [
-					"SYST ER",
 					"RROR | ",
 					"YST ERRO",
 					"T ERROR ",
 					"ST ERROR",
-					" ERROR |"
+					" ERROR |",
+					"\\nSYST ER"
 				]
 			},
 			{
 				"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
 				"frags": [
-					"SYST ER",
 					"RROR | ",
 					"YST ERRO",
 					"T ERROR ",
 					"ST ERROR",
-					" ERROR |"
+					" ERROR |",
+					"\\nSYST ER"
 				]
 			},
 			{
 				"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
 				"frags": [
-					"SYST ER",
 					"RROR | ",
 					"YST ERRO",
 					"T ERROR ",
 					"ST ERROR",
-					" ERROR |"
+					" ERROR |",
+					"\\nSYST ER"
+				]
+			},
+			{
+				"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+				"frags": [
+					"RROR | ",
+					"YST ERRO",
+					"T ERROR ",
+					"ST ERROR",
+					" ERROR |",
+					"\\nSYST ER"
 				]
 			},
 			{
 				"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
 				"frags": [
-					"SYST ER",
 					"RROR | ",
 					"YST ERRO",
 					"T ERROR ",
 					"ST ERROR",
-					" ERROR |"
+					" ERROR |",
+					"\\nSYST ER"
 				]
 			},
 			{
 				"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
 				"frags": [
-					"SYST ER",
 					"RROR | ",
 					"YST ERRO",
 					"T ERROR ",
 					"ST ERROR",
-					" ERROR |"
+					" ERROR |",
+					"\\nSYST ER"
 				]
 			},
 			{
-				"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+				"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
 				"frags": [
-					"SYST ER",
 					"RROR | ",
 					"YST ERRO",
 					"T ERROR ",
 					"ST ERROR",
-					" ERROR |"
+					" ERROR |",
+					"\\nSYST ER"
 				]
 			},
 			{
 				"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
 				"frags": [
-					"SYST ER",
 					"RROR | ",
 					"YST ERRO",
 					"T ERROR ",
 					"ST ERROR",
-					" ERROR |"
+					" ERROR |",
+					"\\nSYST ER"
 				]
 			},
 			{
 				"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
 				"frags": [
-					"SYST ER",
 					"RROR | ",
 					"YST ERRO",
 					"T ERROR ",
 					"ST ERROR",
-					" ERROR |"
+					" ERROR |",
+					"\\nSYST ER"
 				]
 			},
 			{
 				"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
 				"frags": [
-					"SYST ER",
 					"RROR | ",
 					"YST ERRO",
 					"T ERROR ",
 					"ST ERROR",
-					" ERROR |"
+					" ERROR |",
+					"\\nSYST ER"
 				]
 			},
 			{
 				"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
 				"frags": [
-					"SYST ER",
 					"RROR | ",
 					"YST ERRO",
 					"T ERROR ",
 					"ST ERROR",
-					" ERROR |"
+					" ERROR |",
+					"\\nSYST ER"
 				]
 			},
 			{
 				"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
 				"frags": [
-					"SYST ER",
 					"RROR | ",
 					"YST ERRO",
 					"T ERROR ",
 					"ST ERROR",
-					" ERROR |"
+					" ERROR |",
+					"\\nSYST ER"
 				]
 			},
 			{
 				"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
 				"frags": [
-					"SYST ER",
 					"RROR | ",
 					"YST ERRO",
 					"T ERROR ",
 					"ST ERROR",
-					" ERROR |"
+					" ERROR |",
+					"\\nSYST ER"
 				]
 			},
 			{
 				"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
 				"frags": [
-					"SYST ER",
 					"RROR | ",
 					"YST ERRO",
 					"T ERROR ",
 					"ST ERROR",
-					" ERROR |"
-				]
-			},
-			{
-				"document": "Erin File",
-				"frags": [
-					"SYST ER",
-					"RROR | ",
-					"YST ERRO",
-					"T ERROR ",
-					"ST ERROR",
-					" ERROR |"
+					" ERROR |",
+					"\\nSYST ER"
 				]
 			},
 			{
 				"document": "Essence",
 				"frags": [
-					"SYST ER",
+					"RROR | ",
+					"YST ERRO",
+					"T ERROR ",
+					"ST ERROR",
+					" ERROR |",
+					"\\nSYST ER"
+				]
+			},
+			{
+				"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+				"frags": [
+					"RROR | ",
+					"YST ERRO",
+					"T ERROR ",
+					"ST ERROR",
+					" ERROR |",
+					"\\nSYST ER"
+				]
+			},
+			{
+				"document": "Erin File",
+				"frags": [
 					"RROR | ",
 					"YST ERRO",
 					"T ERROR ",
@@ -115548,22 +115712,22 @@
 		"sector": "K_8333",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559422997801,
+		"last_scraped": 1559452832142,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559396984006,
-		"edit": 28,
-		"next_scrape": 1559463498314,
+		"updt": 1559423117799,
+		"edit": 29,
+		"next_scrape": 1559492539941,
 		"category": "fishie_tank",
-		"last_update": 1559422997801,
+		"last_update": 1559452832142,
 		"output": [
 			{
 				"args": {},
-				"calls": 202194,
+				"calls": 213968,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"C8 :)",
@@ -115609,7 +115773,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 16652,
+				"calls": 17419,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -115660,7 +115824,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 197308,
+				"calls": 209259,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"C8 :)",
@@ -117422,22 +117586,22 @@
 		"sector": "NGC_9559",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559422898896,
+		"last_scraped": 1559452732212,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559396758259,
-		"edit": 28,
-		"next_scrape": 1559469569977,
+		"updt": 1559423117799,
+		"edit": 29,
+		"next_scrape": 1559494043869,
 		"category": "fishie_tank",
-		"last_update": 1559422898896,
+		"last_update": 1559452732212,
 		"output": [
 			{
 				"args": {},
-				"calls": 204233,
+				"calls": 213533,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"in, bu",
@@ -117487,7 +117651,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 17182,
+				"calls": 18059,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -117542,7 +117706,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 178304,
+				"calls": 190480,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"in, bu",
@@ -118124,22 +118288,22 @@
 		"sector": "VNP_2699",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559423007516,
+		"last_scraped": 1559452842370,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559396984006,
-		"edit": 34,
-		"next_scrape": 1559464099284,
+		"updt": 1559423117799,
+		"edit": 35,
+		"next_scrape": 1559498490642,
 		"category": "dice_roller",
-		"last_update": 1559423007516,
+		"last_update": 1559452842370,
 		"output": [
 			{
 				"args": {},
-				"calls": 295721,
+				"calls": 305009,
 				"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 				"fragments": [
 					"w I'm",
@@ -138074,22 +138238,22 @@
 		"sector": "VNP_2699",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559423017529,
+		"last_scraped": 1559452852126,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559396984006,
-		"edit": 34,
-		"next_scrape": 1559466076565,
+		"updt": 1559423117799,
+		"edit": 35,
+		"next_scrape": 1559494666364,
 		"category": "dice_roller",
-		"last_update": 1559423017529,
+		"last_update": 1559452852126,
 		"output": [
 			{
 				"args": {},
-				"calls": 294615,
+				"calls": 306704,
 				"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 				"fragments": [
 					"d to st",
@@ -165358,22 +165522,22 @@
 		"sector": "HJG_6180",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559422697571,
+		"last_scraped": 1559452492360,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559396532261,
-		"edit": 26,
-		"next_scrape": 1559468588912,
+		"updt": 1559422891905,
+		"edit": 27,
+		"next_scrape": 1559499179384,
 		"category": "fishie_tank",
-		"last_update": 1559422697571,
+		"last_update": 1559452492360,
 		"output": [
 			{
 				"args": {},
-				"calls": 199027,
+				"calls": 203701,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"addr ",
@@ -165407,7 +165571,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 16873,
+				"calls": 17689,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -165446,7 +165610,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 188909,
+				"calls": 198392,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"addr ",
@@ -169461,22 +169625,22 @@
 		"sector": "K_9469",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559423248644,
+		"last_scraped": 1559453122824,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559397209065,
-		"edit": 36,
-		"next_scrape": 1559464930415,
+		"updt": 1559423343209,
+		"edit": 37,
+		"next_scrape": 1559496958347,
 		"category": "coin_flipper",
-		"last_update": 1559423248644,
+		"last_update": 1559453122824,
 		"output": [
 			{
 				"args": {},
-				"calls": 300653,
+				"calls": 304686,
 				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 				"fragments": [
 					"_FILE",
@@ -177971,22 +178135,22 @@
 		"sector": "HJG_6180",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559422727573,
+		"last_scraped": 1559452542865,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559396532261,
-		"edit": 29,
-		"next_scrape": 1559469321373,
+		"updt": 1559422891905,
+		"edit": 30,
+		"next_scrape": 1559492497471,
 		"category": "fishie_tank",
-		"last_update": 1559422727573,
+		"last_update": 1559452542865,
 		"output": [
 			{
 				"args": {},
-				"calls": 176432,
+				"calls": 190222,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"eory,",
@@ -178050,7 +178214,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 18177,
+				"calls": 19564,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -178119,7 +178283,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 215667,
+				"calls": 224147,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"eory,",
@@ -186787,22 +186951,22 @@
 		"sector": "VNP_5194",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559422807667,
+		"last_scraped": 1559452642221,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559396758259,
-		"edit": 27,
-		"next_scrape": 1559463473296,
+		"updt": 1559422891905,
+		"edit": 28,
+		"next_scrape": 1559495311843,
 		"category": "fishie_tank",
-		"last_update": 1559422807667,
+		"last_update": 1559452642221,
 		"output": [
 			{
 				"args": {},
-				"calls": 202127,
+				"calls": 210430,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"ing p",
@@ -186844,7 +187008,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 19075,
+				"calls": 19968,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -186891,7 +187055,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 241862,
+				"calls": 251415,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"ing p",
@@ -192737,22 +192901,22 @@
 		"sector": "HJG_2462",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559422827475,
+		"last_scraped": 1559452662686,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559396758259,
-		"edit": 33,
-		"next_scrape": 1559465671884,
+		"updt": 1559422891905,
+		"edit": 34,
+		"next_scrape": 1559496229865,
 		"category": "coin_flipper",
-		"last_update": 1559422827475,
+		"last_update": 1559452662686,
 		"output": [
 			{
 				"args": {},
-				"calls": 316812,
+				"calls": 328994,
 				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 				"fragments": [
 					"' form",
@@ -196928,36 +197092,41 @@
 		"sector": "K_9469",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559423348570,
+		"last_scraped": 1559453293362,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559397434178,
-		"edit": 36,
-		"next_scrape": 1559464317078,
+		"updt": 1559423569297,
+		"edit": 37,
+		"next_scrape": 1559496169666,
 		"category": "UNKNOWN CATEGORY",
-		"last_update": 1559423348570,
+		"last_update": 1559453293362,
 		"output": [
 			{
 				"args": {},
-				"calls": 6278181,
+				"calls": 6646953,
 				"base": "Usage:\np14y3r.colors { show:\"<uppercase|lowercase|number|json>\" }",
 				"fragments": [
 					"ts so",
-					"i | S",
 					"DY it",
 					"tem <d",
 					"r in t",
+					"ol to ",
+					"o cool",
 					"ajbhan",
 					"ystem <",
 					"n the s",
 					"iyawaki",
+					"Y its s",
 					" omg yo",
+					"ndari | ",
+					"i | SUBJ",
 					"ht | BOD",
 					"ere righ",
+					"aki eraj",
 					" system "
 				],
 				"hits": [
@@ -198519,22 +198688,22 @@
 		"sector": "HJG_6283",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559422967817,
+		"last_scraped": 1559452802947,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559396984006,
-		"edit": 37,
-		"next_scrape": 1559469466713,
+		"updt": 1559423117799,
+		"edit": 38,
+		"next_scrape": 1559497323100,
 		"category": "coin_flipper",
-		"last_update": 1559422967817,
+		"last_update": 1559452802947,
 		"output": [
 			{
 				"args": {},
-				"calls": 305798,
+				"calls": 310639,
 				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 				"fragments": [
 					"the t",
@@ -198548,11 +198717,12 @@
 					" smil",
 					" a sm",
 					"| BODY",
-					"w them",
 					"this |",
 					"mile' ",
+					"is | B",
 					"gs the",
 					"comes ",
+					" we sh",
 					" show ",
 					" are t",
 					" We sa",
@@ -198566,10 +198736,12 @@
 					" aria',",
 					"s they s",
 					"s is an ",
+					"how them",
 					"his is a",
 					"hey see ",
 					"hem. We ",
 					"he thing",
+					"he first",
 					"first th",
 					"are the ",
 					"We say '",
