@@ -15983,25 +15983,26 @@
 	{
 		"_id": "abandoned_lpf7gt.gibson",
 		"type": "fragment",
-		"mode": "npc",
+		"mode": "fresh",
 		"script": "abandoned_lpf7gt.gibson",
 		"sector": "K_7641",
 		"sec_level": 4,
 		"date_added": 1559649020940,
-		"last_scraped": 1559650760851,
+		"last_scraped": 1559649560620,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1559649020940
 			}
 		],
-		"next_scrape": 1559692511753,
+		"scrape_ct": 14,
+		"next_scrape": 1559649620620,
 		"category": "dice_roller",
-		"last_update": 1559650760851,
+		"last_update": 1559649560620,
 		"output": [
 			{
 				"args": {},
-				"calls": 200626,
+				"calls": 64401,
 				"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 				"fragments": [
 					"3 But ",
@@ -16051,8 +16052,8 @@
 				]
 			}
 		],
-		"updt": 1559650760676,
-		"edit": 8
+		"updt": 1559649406856,
+		"edit": 2
 	},
 	{
 		"_id": "abandoned_lwopis._",
@@ -33231,8 +33232,8 @@
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559622129668,
-		"edit": 32,
+		"updt": 1559649406856,
+		"edit": 33,
 		"next_scrape": 1559692999969,
 		"category": "clicker",
 		"last_update": 1559649210201,
@@ -33464,6 +33465,29 @@
 					"RROR | PS",
 					"RROR |  S",
 					"ETW ERROS"
+				],
+				"hits": [
+					{
+						"document": "NOT FOUND",
+						"frags": [
+							"SG ERR",
+							"G ERRS",
+							"SEG ERR",
+							"S0X71_C",
+							"G ERR S",
+							"0X71_CS",
+							"| NETW S",
+							"RROR | S",
+							"G ERRK S",
+							"ERROR  S",
+							"0X71_C S",
+							" | NETWS",
+							" ERROR S",
+							"RROR | PS",
+							"RROR |  S",
+							"ETW ERROS"
+						]
+					}
 				]
 			}
 		],
@@ -38185,22 +38209,22 @@
 		"sector": "K_9730",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559622355812,
+		"last_scraped": 1559649550890,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559622355864,
-		"edit": 30,
-		"next_scrape": 1559666757786,
+		"updt": 1559622580158,
+		"edit": 31,
+		"next_scrape": 1559691528582,
 		"category": "clicker",
-		"last_update": 1559622355812,
+		"last_update": 1559649550890,
 		"output": [
 			{
 				"args": {},
-				"calls": 206489,
+				"calls": 218196,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
 					"It's ",
@@ -38240,7 +38264,7 @@
 				"args": {
 					"click": true
 				},
-				"calls": 236813,
+				"calls": 249243,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
 					"It's ",
@@ -38280,7 +38304,7 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 29655,
+				"calls": 30445,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
 					"It's ",
@@ -52100,20 +52124,20 @@
 		"sector": "K_3966",
 		"sec_level": 4,
 		"date_added": 1559565404442,
-		"last_scraped": 1559622244994,
+		"last_scraped": 1559649430859,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1559565404442
 			}
 		],
-		"next_scrape": 1559662773047,
+		"next_scrape": 1559695695674,
 		"category": "fishie_tank",
-		"last_update": 1559622244994,
+		"last_update": 1559649430859,
 		"output": [
 			{
 				"args": {},
-				"calls": 111133,
+				"calls": 115722,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"IES a",
@@ -52141,7 +52165,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 10787,
+				"calls": 11631,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -52174,7 +52198,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 122792,
+				"calls": 132360,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"IES a",
@@ -52199,8 +52223,8 @@
 				]
 			}
 		],
-		"updt": 1559595528828,
-		"edit": 6,
+		"updt": 1559622355864,
+		"edit": 7,
 		"identified": [
 			{
 				"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
@@ -81627,20 +81651,20 @@
 		"sector": "VNP_6121",
 		"sec_level": 4,
 		"date_added": 1558922960525,
-		"last_scraped": 1559622415730,
+		"last_scraped": 1559649620576,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558922960525
 			}
 		],
-		"next_scrape": 1559666131781,
+		"next_scrape": 1559690304017,
 		"category": "fishie_tank",
-		"last_update": 1559622415730,
+		"last_update": 1559649620576,
 		"output": [
 			{
 				"args": {},
-				"calls": 265598,
+				"calls": 274130,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"ndari",
@@ -81670,7 +81694,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 23694,
+				"calls": 24539,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -81705,7 +81729,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 264192,
+				"calls": 273052,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"ndari",
@@ -81732,8 +81756,8 @@
 				]
 			}
 		],
-		"updt": 1559595528828,
-		"edit": 32,
+		"updt": 1559622580158,
+		"edit": 33,
 		"identified": [
 			{
 				"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
@@ -85354,20 +85378,20 @@
 		"sector": "K_0304",
 		"sec_level": 4,
 		"date_added": 1559157959900,
-		"last_scraped": 1559622295504,
+		"last_scraped": 1559649490718,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1559157959900
 			}
 		],
-		"next_scrape": 1559666885404,
+		"next_scrape": 1559692293078,
 		"category": "coin_flipper",
-		"last_update": 1559622295504,
+		"last_update": 1559649490718,
 		"output": [
 			{
 				"args": {},
-				"calls": 364199,
+				"calls": 376432,
 				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 				"fragments": [
 					" what",
@@ -85392,8 +85416,8 @@
 				]
 			}
 		],
-		"updt": 1559595528828,
-		"edit": 35,
+		"updt": 1559622355864,
+		"edit": 36,
 		"identified": [
 			{
 				"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -148130,20 +148154,20 @@
 		"sector": "K_5016",
 		"sec_level": 4,
 		"date_added": 1559187718553,
-		"last_scraped": 1559622386206,
+		"last_scraped": 1559649590833,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1559187718553
 			}
 		],
-		"next_scrape": 1559666626306,
+		"next_scrape": 1559692669073,
 		"category": "dice_roller",
-		"last_update": 1559622386206,
+		"last_update": 1559649590833,
 		"output": [
 			{
 				"args": {},
-				"calls": 341857,
+				"calls": 351238,
 				"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 				"fragments": [
 					"scard",
@@ -148190,8 +148214,8 @@
 				]
 			}
 		],
-		"updt": 1559595528828,
-		"edit": 30
+		"updt": 1559622580158,
+		"edit": 31
 	},
 	{
 		"_id": "uknown_msg8o4.gc_to",
@@ -161017,22 +161041,22 @@
 		"sector": "VNP_0123",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559622275157,
+		"last_scraped": 1559649461086,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559595528828,
-		"edit": 29,
-		"next_scrape": 1559667933675,
+		"updt": 1559622355864,
+		"edit": 30,
+		"next_scrape": 1559696023395,
 		"category": "clicker",
-		"last_update": 1559622275157,
+		"last_update": 1559649461086,
 		"output": [
 			{
 				"args": {},
-				"calls": 231047,
+				"calls": 239976,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
 					"n't t",
@@ -161064,7 +161088,7 @@
 				"args": {
 					"click": true
 				},
-				"calls": 234034,
+				"calls": 243272,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
 					"n't t",
@@ -161096,7 +161120,7 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 28403,
+				"calls": 29571,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
 					"n't t",
@@ -173713,20 +173737,20 @@
 		"sector": "K_0304",
 		"sec_level": 4,
 		"date_added": 1559169024750,
-		"last_scraped": 1559622376849,
+		"last_scraped": 1559649580799,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1559169024750
 			}
 		],
-		"next_scrape": 1559667976723,
+		"next_scrape": 1559694664247,
 		"category": "coin_flipper",
-		"last_update": 1559622376849,
+		"last_update": 1559649580799,
 		"output": [
 			{
 				"args": {},
-				"calls": 338750,
+				"calls": 350615,
 				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 				"fragments": [
 					"FILE0X",
@@ -173751,8 +173775,8 @@
 				]
 			}
 		],
-		"updt": 1559595528828,
-		"edit": 34,
+		"updt": 1559622580158,
+		"edit": 35,
 		"identified": [
 			{
 				"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -178233,20 +178257,20 @@
 		"sector": "K_0304",
 		"sec_level": 4,
 		"date_added": 1559156678999,
-		"last_scraped": 1559622285594,
+		"last_scraped": 1559649470521,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1559156678999
 			}
 		],
-		"next_scrape": 1559663549862,
+		"next_scrape": 1559693323129,
 		"category": "dice_roller",
-		"last_update": 1559622285594,
+		"last_update": 1559649470521,
 		"output": [
 			{
 				"args": {},
-				"calls": 368231,
+				"calls": 377289,
 				"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 				"fragments": [
 					" coop",
@@ -178289,8 +178313,8 @@
 				]
 			}
 		],
-		"updt": 1559595528828,
-		"edit": 37,
+		"updt": 1559622355864,
+		"edit": 38,
 		"identified": [
 			{
 				"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -202481,22 +202505,22 @@
 		"sector": "K_1785",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559622325266,
+		"last_scraped": 1559649520975,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559595528828,
-		"edit": 32,
-		"next_scrape": 1559665525125,
+		"updt": 1559622355864,
+		"edit": 33,
+		"next_scrape": 1559693792081,
 		"category": "clicker",
-		"last_update": 1559622325266,
+		"last_update": 1559649520975,
 		"output": [
 			{
 				"args": {},
-				"calls": 221974,
+				"calls": 231189,
 				"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 				"fragments": [
 					"s as ",
@@ -202562,7 +202586,7 @@
 				"args": {
 					"click": true
 				},
-				"calls": 232341,
+				"calls": 237038,
 				"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 				"fragments": [
 					"s as ",
@@ -202628,7 +202652,7 @@
 				"args": {
 					"CLICK": true
 				},
-				"calls": 29375,
+				"calls": 30737,
 				"base": "`LCLICK SECURED`",
 				"fragments": [
 					"s as ",
@@ -206505,17 +206529,17 @@
 		"sector": "K_0887",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559622365994,
+		"last_scraped": 1559649571008,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559595528828,
-		"edit": 22,
+		"updt": 1559622580158,
+		"edit": 23,
 		"output": "WIP. Stay tuned for updates",
-		"next_scrape": 1559706162112,
+		"next_scrape": 1559736072731,
 		"pl_output": "WIP. Stay tuned for updates"
 	},
 	{
