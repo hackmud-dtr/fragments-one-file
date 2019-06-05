@@ -2557,22 +2557,22 @@
 		"sector": "K_8766",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559697218979,
+		"last_scraped": 1559731533894,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669477125,
-		"edit": 45,
-		"next_scrape": 1559738078821,
+		"updt": 1559697425895,
+		"edit": 46,
+		"next_scrape": 1559772290598,
 		"category": "coin_flipper",
-		"last_update": 1559697218979,
+		"last_update": 1559731533894,
 		"output": [
 			{
 				"args": {},
-				"calls": 388133,
+				"calls": 397177,
 				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 				"fragments": [
 					"that?",
@@ -22086,22 +22086,22 @@
 		"sector": "SPC_0388",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559697378970,
+		"last_scraped": 1559731684500,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669703003,
-		"edit": 39,
-		"next_scrape": 1559742927229,
+		"updt": 1559697425895,
+		"edit": 40,
+		"next_scrape": 1559771519442,
 		"category": "fishie_tank",
-		"last_update": 1559697378970,
+		"last_update": 1559731684500,
 		"output": [
 			{
 				"args": {},
-				"calls": 286316,
+				"calls": 295951,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"erajb",
@@ -22198,6 +22198,14 @@
 					" | USER ",
 					" ERROR |"
 				]
+			}
+		],
+		"retry_args": [
+			{
+				"do": "feed"
+			},
+			{
+				"do": "clean"
 			}
 		]
 	},
@@ -24627,22 +24635,22 @@
 		"sector": "NGC_5928",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559696808753,
+		"last_scraped": 1559731154080,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559696975113,
-		"edit": 37,
-		"next_scrape": 1559740357358,
+		"updt": 1559697202034,
+		"edit": 38,
+		"next_scrape": 1559774530863,
 		"category": "fishie_tank",
-		"last_update": 1559696808753,
+		"last_update": 1559731154080,
 		"output": [
 			{
 				"args": {},
-				"calls": 266357,
+				"calls": 275622,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"y Matr",
@@ -24704,7 +24712,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 24983,
+				"calls": 25773,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -24771,7 +24779,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 274587,
+				"calls": 283417,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"y Matr",
@@ -28059,22 +28067,22 @@
 		"sector": "NGC_0779",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559697098234,
+		"last_scraped": 1559731443863,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669251685,
-		"edit": 43,
-		"next_scrape": 1559738075548,
+		"updt": 1559697202034,
+		"edit": 44,
+		"next_scrape": 1559775966004,
 		"category": "dice_roller",
-		"last_update": 1559697098234,
+		"last_update": 1559731443863,
 		"output": [
 			{
 				"args": {},
-				"calls": 394034,
+				"calls": 406536,
 				"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 				"fragments": [
 					" know",
@@ -28124,22 +28132,22 @@
 		"sector": "K_8766",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559697228331,
+		"last_scraped": 1559731544602,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669477125,
-		"edit": 46,
-		"next_scrape": 1559741075514,
+		"updt": 1559697425895,
+		"edit": 47,
+		"next_scrape": 1559774232054,
 		"category": "UNKNOWN CATEGORY",
-		"last_update": 1559697228331,
+		"last_update": 1559731544602,
 		"output": [
 			{
 				"args": {},
-				"calls": 362259,
+				"calls": 370861,
 				"base": "\n`iWelcome to the` `HZurich Vault`\n`iDiscrete funds storage. Anonymity guaranteed.`\n\n req:\"create\"\n req:\"balance\"\n req:\"pending\"\n\n`iFor questions, please see `zurich.help",
 				"fragments": [
 					"r, Er",
@@ -30101,22 +30109,22 @@
 		"sector": "K_8698",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559696567856,
+		"last_scraped": 1559730894166,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669026640,
-		"edit": 37,
-		"next_scrape": 1559742405350,
+		"updt": 1559696749314,
+		"edit": 38,
+		"next_scrape": 1559773274395,
 		"category": "fishie_tank",
-		"last_update": 1559696567856,
+		"last_update": 1559730894166,
 		"output": [
 			{
 				"args": {},
-				"calls": 303583,
+				"calls": 312762,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"the r",
@@ -30150,7 +30158,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 24635,
+				"calls": 25409,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -30189,7 +30197,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 269896,
+				"calls": 282224,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"the r",
@@ -44911,20 +44919,20 @@
 		"sector": "K_3296",
 		"sec_level": 4,
 		"date_added": 1559396603513,
-		"last_scraped": 1559697288510,
+		"last_scraped": 1559731614786,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1559396603513
 			}
 		],
-		"next_scrape": 1559739087584,
+		"next_scrape": 1559773826806,
 		"category": "coin_flipper",
-		"last_update": 1559697288510,
+		"last_update": 1559731614786,
 		"output": [
 			{
 				"args": {},
-				"calls": 302832,
+				"calls": 316336,
 				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 				"fragments": [
 					"2A91C",
@@ -45108,8 +45116,8 @@
 				]
 			}
 		],
-		"updt": 1559669477125,
-		"edit": 17,
+		"updt": 1559697425895,
+		"edit": 18,
 		"identified": [
 			{
 				"document": "NOT FOUND",
@@ -51825,22 +51833,22 @@
 		"sector": "K_3050",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559697298854,
+		"last_scraped": 1559731624275,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559697425895,
-		"edit": 48,
-		"next_scrape": 1559738009780,
+		"updt": 1559698551091,
+		"edit": 49,
+		"next_scrape": 1559775668163,
 		"category": "coin_flipper",
-		"last_update": 1559697298854,
+		"last_update": 1559731624275,
 		"output": [
 			{
 				"args": {},
-				"calls": 367079,
+				"calls": 371773,
 				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 				"fragments": [
 					"st bl",
@@ -53017,22 +53025,22 @@
 		"sector": "HJG_8005",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559697078220,
+		"last_scraped": 1559731424016,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669251685,
-		"edit": 37,
-		"next_scrape": 1559737451191,
+		"updt": 1559697202034,
+		"edit": 38,
+		"next_scrape": 1559778179826,
 		"category": "fishie_tank",
-		"last_update": 1559697078220,
+		"last_update": 1559731424016,
 		"output": [
 			{
 				"args": {},
-				"calls": 266886,
+				"calls": 273181,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"'s el",
@@ -53072,7 +53080,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 24846,
+				"calls": 25641,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -53117,7 +53125,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 279689,
+				"calls": 292414,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"'s el",
@@ -56031,22 +56039,22 @@
 		"sector": "NGC_4697",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559697088597,
+		"last_scraped": 1559731433491,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669251685,
-		"edit": 47,
-		"next_scrape": 1559738882420,
+		"updt": 1559697202034,
+		"edit": 48,
+		"next_scrape": 1559776754946,
 		"category": "coin_flipper",
-		"last_update": 1559697088597,
+		"last_update": 1559731433491,
 		"output": [
 			{
 				"args": {},
-				"calls": 363743,
+				"calls": 376466,
 				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 				"fragments": [
 					"ntere",
@@ -57266,22 +57274,22 @@
 		"sector": "VNP_9651",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559696988608,
+		"last_scraped": 1559731353719,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669251685,
-		"edit": 46,
-		"next_scrape": 1559741608075,
+		"updt": 1559697202034,
+		"edit": 47,
+		"next_scrape": 1559772865537,
 		"category": "coin_flipper",
-		"last_update": 1559696988608,
+		"last_update": 1559731353719,
 		"output": [
 			{
 				"args": {},
-				"calls": 386263,
+				"calls": 395224,
 				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 				"fragments": [
 					"ally:",
@@ -69074,22 +69082,22 @@
 		"sector": "VNP_7425",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559696878027,
+		"last_scraped": 1559731223567,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669251685,
-		"edit": 46,
-		"next_scrape": 1559743145813,
+		"updt": 1559696975113,
+		"edit": 47,
+		"next_scrape": 1559771103063,
 		"category": "coin_flipper",
-		"last_update": 1559696878027,
+		"last_update": 1559731223567,
 		"output": [
 			{
 				"args": {},
-				"calls": 379563,
+				"calls": 389193,
 				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 				"fragments": [
 					"rse I",
@@ -73402,22 +73410,22 @@
 		"sector": "K_6019",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559697108032,
+		"last_scraped": 1559731453935,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669251685,
-		"edit": 45,
-		"next_scrape": 1559737578691,
+		"updt": 1559697202034,
+		"edit": 46,
+		"next_scrape": 1559771329129,
 		"category": "dice_roller",
-		"last_update": 1559697108032,
+		"last_update": 1559731453935,
 		"output": [
 			{
 				"args": {},
-				"calls": 405711,
+				"calls": 410400,
 				"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 				"fragments": [
 					"our d",
@@ -75008,22 +75016,22 @@
 		"sector": "K_8698",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559696969038,
+		"last_scraped": 1559731344803,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669251685,
-		"edit": 37,
-		"next_scrape": 1559737088200,
+		"updt": 1559696975113,
+		"edit": 38,
+		"next_scrape": 1559774954725,
 		"category": "fishie_tank",
-		"last_update": 1559696969038,
+		"last_update": 1559731344803,
 		"output": [
 			{
 				"args": {},
-				"calls": 281291,
+				"calls": 288932,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"ry hel",
@@ -75051,7 +75059,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 26130,
+				"calls": 27144,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -75084,7 +75092,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 285049,
+				"calls": 293938,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"ry hel",
@@ -80635,22 +80643,22 @@
 		"sector": "K_2117",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559696868013,
+		"last_scraped": 1559731184694,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669251685,
-		"edit": 37,
-		"next_scrape": 1559738743956,
+		"updt": 1559696975113,
+		"edit": 38,
+		"next_scrape": 1559776892128,
 		"category": "fishie_tank",
-		"last_update": 1559696868013,
+		"last_update": 1559731184694,
 		"output": [
 			{
 				"args": {},
-				"calls": 298336,
+				"calls": 307524,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"had a",
@@ -80698,7 +80706,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 25794,
+				"calls": 26462,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -80751,7 +80759,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 256516,
+				"calls": 263990,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"had a",
@@ -80911,22 +80919,22 @@
 		"sector": "VNP_6121",
 		"sec_level": 4,
 		"date_added": 1558849856376,
-		"last_scraped": 1559696757901,
+		"last_scraped": 1559731104186,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558849856376
 			}
 		],
-		"updt": 1559669026640,
-		"edit": 43,
-		"next_scrape": 1559741836580,
+		"updt": 1559696975113,
+		"edit": 44,
+		"next_scrape": 1559771576190,
 		"category": "coin_flipper",
-		"last_update": 1559696757901,
+		"last_update": 1559731104186,
 		"output": [
 			{
 				"args": {},
-				"calls": 375014,
+				"calls": 383018,
 				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 				"fragments": [
 					"xpres",
@@ -88576,22 +88584,22 @@
 		"sector": "VNP_9083",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559696777881,
+		"last_scraped": 1559731124965,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669026640,
-		"edit": 46,
-		"next_scrape": 1559742027109,
+		"updt": 1559696975113,
+		"edit": 47,
+		"next_scrape": 1559776099312,
 		"category": "dice_roller",
-		"last_update": 1559696777881,
+		"last_update": 1559731124965,
 		"output": [
 			{
 				"args": {},
-				"calls": 384795,
+				"calls": 397004,
 				"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 				"fragments": [
 					"rised",
@@ -93261,22 +93269,22 @@
 		"sector": "NGC_2387",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559697308667,
+		"last_scraped": 1559731634463,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669477125,
-		"edit": 43,
-		"next_scrape": 1559743190094,
+		"updt": 1559697425895,
+		"edit": 44,
+		"next_scrape": 1559777400695,
 		"category": "coin_flipper",
-		"last_update": 1559697308667,
+		"last_update": 1559731634463,
 		"output": [
 			{
 				"args": {},
-				"calls": 370688,
+				"calls": 383478,
 				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 				"fragments": [
 					"t I k",
@@ -93460,22 +93468,22 @@
 		"sector": "NGC_9325",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559697208284,
+		"last_scraped": 1559731523961,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669477125,
-		"edit": 40,
-		"next_scrape": 1559739794140,
+		"updt": 1559697425895,
+		"edit": 41,
+		"next_scrape": 1559773405226,
 		"category": "fishie_tank",
-		"last_update": 1559697208284,
+		"last_update": 1559731523961,
 		"output": [
 			{
 				"args": {},
-				"calls": 291947,
+				"calls": 303930,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"ng, w",
@@ -93501,7 +93509,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 24112,
+				"calls": 25703,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -93532,7 +93540,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 286238,
+				"calls": 296049,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"ng, w",
@@ -98476,22 +98484,22 @@
 		"sector": "VNP_9651",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559696607975,
+		"last_scraped": 1559730943687,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669026640,
-		"edit": 36,
-		"next_scrape": 1559743280566,
+		"updt": 1559696749314,
+		"edit": 37,
+		"next_scrape": 1559772160170,
 		"category": "fishie_tank",
-		"last_update": 1559696607975,
+		"last_update": 1559730943687,
 		"output": [
 			{
 				"args": {},
-				"calls": 270738,
+				"calls": 280354,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"l free",
@@ -98521,7 +98529,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 26235,
+				"calls": 27024,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -98556,7 +98564,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 273049,
+				"calls": 285366,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"l free",
@@ -101311,22 +101319,22 @@
 		"sector": "VNP_5686",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559696657746,
+		"last_scraped": 1559731003797,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669026640,
-		"edit": 45,
-		"next_scrape": 1559738765430,
+		"updt": 1559696749314,
+		"edit": 46,
+		"next_scrape": 1559773068363,
 		"category": "coin_flipper",
-		"last_update": 1559696657746,
+		"last_update": 1559731003797,
 		"output": [
 			{
 				"args": {},
-				"calls": 387211,
+				"calls": 396547,
 				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 				"fragments": [
 					"miyaw",
@@ -116611,18 +116619,18 @@
 		"sector": "VNP_7425",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559730783467,
+		"last_scraped": 1559730803785,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559696524722,
-		"edit": 39,
-		"next_scrape": 1559770738076,
+		"updt": 1559730789500,
+		"edit": 40,
+		"next_scrape": 1559774558182,
 		"category": "fishie_tank",
-		"last_update": 1559730783467,
+		"last_update": 1559730803785,
 		"output": [
 			{
 				"args": {},
@@ -116688,7 +116696,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 25770,
+				"calls": 26706,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -116755,7 +116763,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 293040,
+				"calls": 303076,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"nce t",
@@ -116842,14 +116850,6 @@
 					". ## Qui",
 					" to shar"
 				]
-			}
-		],
-		"retry_args": [
-			{
-				"do": "feed"
-			},
-			{
-				"do": "clean"
 			}
 		]
 	},
@@ -117924,22 +117924,22 @@
 		"sector": "VNP_9651",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559697049643,
+		"last_scraped": 1559731393628,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669251685,
-		"edit": 36,
-		"next_scrape": 1559742981381,
+		"updt": 1559697202034,
+		"edit": 37,
+		"next_scrape": 1559775987530,
 		"category": "fishie_tank",
-		"last_update": 1559697049643,
+		"last_update": 1559731393628,
 		"output": [
 			{
 				"args": {},
-				"calls": 283164,
+				"calls": 295225,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"I atta",
@@ -117965,7 +117965,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 27594,
+				"calls": 28501,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -117996,7 +117996,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 312053,
+				"calls": 320749,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"I atta",
@@ -126418,20 +126418,20 @@
 		"sector": "K_3966",
 		"sec_level": 4,
 		"date_added": 1559577885975,
-		"last_scraped": 1559696578517,
+		"last_scraped": 1559730914356,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1559577885975
 			}
 		],
-		"next_scrape": 1559736336084,
+		"next_scrape": 1559773409866,
 		"category": "coin_flipper",
-		"last_update": 1559696578517,
+		"last_update": 1559730914356,
 		"output": [
 			{
 				"args": {},
-				"calls": 252387,
+				"calls": 265924,
 				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 				"fragments": [
 					"is ev",
@@ -126456,8 +126456,8 @@
 				]
 			}
 		],
-		"updt": 1559669026640,
-		"edit": 12,
+		"updt": 1559696749314,
+		"edit": 13,
 		"identified": [
 			{
 				"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
@@ -139566,22 +139566,22 @@
 		"sector": "VNP_0096",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559697269047,
+		"last_scraped": 1559731584629,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669477125,
-		"edit": 41,
-		"next_scrape": 1559740250267,
+		"updt": 1559697425895,
+		"edit": 42,
+		"next_scrape": 1559772149687,
 		"category": "fishie_tank",
-		"last_update": 1559697269047,
+		"last_update": 1559731584629,
 		"output": [
 			{
 				"args": {},
-				"calls": 265862,
+				"calls": 275397,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"yzant",
@@ -139635,7 +139635,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 24954,
+				"calls": 25754,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -139694,7 +139694,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 300855,
+				"calls": 312865,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"yzant",
@@ -145171,20 +145171,20 @@
 		"sector": "K_3429",
 		"sec_level": 4,
 		"date_added": 1559315707721,
-		"last_scraped": 1559696647895,
+		"last_scraped": 1559730993489,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1559315707721
 			}
 		],
-		"next_scrape": 1559736311695,
+		"next_scrape": 1559776831942,
 		"category": "dice_roller",
-		"last_update": 1559696647895,
+		"last_update": 1559730993489,
 		"output": [
 			{
 				"args": {},
-				"calls": 349013,
+				"calls": 361131,
 				"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 				"fragments": [
 					" 0001",
@@ -145205,8 +145205,8 @@
 				]
 			}
 		],
-		"updt": 1559669026640,
-		"edit": 22,
+		"updt": 1559696749314,
+		"edit": 23,
 		"identified": [
 			{
 				"document": "NOT FOUND",
@@ -145449,22 +145449,22 @@
 		"sector": "K_6934",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559697278437,
+		"last_scraped": 1559731593768,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669477125,
-		"edit": 46,
-		"next_scrape": 1559738250515,
+		"updt": 1559697425895,
+		"edit": 47,
+		"next_scrape": 1559775602448,
 		"category": "dice_roller",
-		"last_update": 1559697278437,
+		"last_update": 1559731593768,
 		"output": [
 			{
 				"args": {},
-				"calls": 354298,
+				"calls": 363590,
 				"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 				"fragments": [
 					" if t",
@@ -152703,8 +152703,8 @@
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559696295741,
-		"edit": 40,
+		"updt": 1559730789500,
+		"edit": 41,
 		"next_scrape": 1559770318765,
 		"category": "fishie_tank",
 		"last_update": 1559730593367,
@@ -152742,19 +152742,27 @@
 						"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
 						"frags": [
 							"what t",
+							"was ye",
+							"ur pro",
+							"t was ",
 							"hat wa",
-							"E9A wh",
+							"at the",
+							"7 and ",
 							" years",
 							"ears ag",
 							"d I'd l",
 							"I'd lik",
 							"r provin",
 							"prior to",
-							"o\\n1E95 ",
+							"ago\\n1E9",
+							"E9A what",
 							"95 prior",
 							"'d like ",
+							" to your",
 							" ago\\n1E",
-							"learn\\n1E"
+							"o\\n1E95 p",
+							"learn\\n1E",
+							"\\n1E95 pr"
 						]
 					}
 				]
@@ -152799,19 +152807,27 @@
 						"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
 						"frags": [
 							"what t",
+							"was ye",
+							"ur pro",
+							"t was ",
 							"hat wa",
-							"E9A wh",
+							"at the",
+							"7 and ",
 							" years",
 							"ears ag",
 							"d I'd l",
 							"I'd lik",
 							"r provin",
 							"prior to",
-							"o\\n1E95 ",
+							"ago\\n1E9",
+							"E9A what",
 							"95 prior",
 							"'d like ",
+							" to your",
 							" ago\\n1E",
-							"learn\\n1E"
+							"o\\n1E95 p",
+							"learn\\n1E",
+							"\\n1E95 pr"
 						]
 					}
 				]
@@ -152851,19 +152867,27 @@
 						"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
 						"frags": [
 							"what t",
+							"was ye",
+							"ur pro",
+							"t was ",
 							"hat wa",
-							"E9A wh",
+							"at the",
+							"7 and ",
 							" years",
 							"ears ag",
 							"d I'd l",
 							"I'd lik",
 							"r provin",
 							"prior to",
-							"o\\n1E95 ",
+							"ago\\n1E9",
+							"E9A what",
 							"95 prior",
 							"'d like ",
+							" to your",
 							" ago\\n1E",
-							"learn\\n1E"
+							"o\\n1E95 p",
+							"learn\\n1E",
+							"\\n1E95 pr"
 						]
 					}
 				]
@@ -152874,19 +152898,27 @@
 				"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
 				"frags": [
 					"what t",
+					"was ye",
+					"ur pro",
+					"t was ",
 					"hat wa",
-					"E9A wh",
+					"at the",
+					"7 and ",
 					" years",
 					"ears ag",
 					"d I'd l",
 					"I'd lik",
 					"r provin",
 					"prior to",
-					"o\\n1E95 ",
+					"ago\\n1E9",
+					"E9A what",
 					"95 prior",
 					"'d like ",
+					" to your",
 					" ago\\n1E",
-					"learn\\n1E"
+					"o\\n1E95 p",
+					"learn\\n1E",
+					"\\n1E95 pr"
 				]
 			}
 		]
@@ -159762,22 +159794,22 @@
 		"sector": "K_6934",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559697238363,
+		"last_scraped": 1559731553692,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669703003,
-		"edit": 47,
-		"next_scrape": 1559737915251,
+		"updt": 1559697425895,
+		"edit": 48,
+		"next_scrape": 1559777179963,
 		"category": "coin_flipper",
-		"last_update": 1559697238363,
+		"last_update": 1559731553692,
 		"output": [
 			{
 				"args": {},
-				"calls": 364927,
+				"calls": 374092,
 				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 				"fragments": [
 					"3_SEC",
@@ -174973,26 +175005,25 @@
 	{
 		"_id": "unidentified_clrwsw.t3_clean",
 		"type": "fragment",
-		"mode": "fresh",
+		"mode": "npc",
 		"script": "unidentified_clrwsw.t3_clean",
 		"sector": "NGC_9297",
 		"sec_level": 4,
 		"date_added": 1559730203080,
-		"last_scraped": 1559730773594,
+		"last_scraped": 1559731314124,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1559730203080
 			}
 		],
-		"scrape_ct": 9,
-		"next_scrape": 1559730833594,
+		"next_scrape": 1559773432238,
 		"category": "fishie_tank",
-		"last_update": 1559730773594,
+		"last_update": 1559731314124,
 		"output": [
 			{
 				"args": {},
-				"calls": 60748,
+				"calls": 109504,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"FILE0X",
@@ -175032,7 +175063,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 5727,
+				"calls": 9648,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -175077,7 +175108,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 57942,
+				"calls": 104284,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"FILE0X",
@@ -175133,8 +175164,8 @@
 				]
 			}
 		],
-		"updt": 1559730564500,
-		"edit": 2
+		"updt": 1559731242690,
+		"edit": 5
 	},
 	{
 		"_id": "unidentified_d80tfz.t1_scrape",
@@ -180107,22 +180138,22 @@
 		"sector": "VNP_7425",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559696508482,
+		"last_scraped": 1559730833647,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559668802444,
-		"edit": 36,
-		"next_scrape": 1559741988084,
+		"updt": 1559696524722,
+		"edit": 37,
+		"next_scrape": 1559773890313,
 		"category": "fishie_tank",
-		"last_update": 1559696508482,
+		"last_update": 1559730833647,
 		"output": [
 			{
 				"args": {},
-				"calls": 271344,
+				"calls": 282763,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"make ",
@@ -180156,7 +180187,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 27512,
+				"calls": 28466,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -180195,7 +180226,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 288362,
+				"calls": 300594,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"make ",
@@ -180542,22 +180573,22 @@
 		"sector": "NGC_8582",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559697169235,
+		"last_scraped": 1559731484094,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669477125,
-		"edit": 38,
-		"next_scrape": 1559742013596,
+		"updt": 1559697202034,
+		"edit": 39,
+		"next_scrape": 1559775594793,
 		"category": "fishie_tank",
-		"last_update": 1559697169235,
+		"last_update": 1559731484094,
 		"output": [
 			{
 				"args": {},
-				"calls": 289125,
+				"calls": 298246,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"e onl",
@@ -180589,7 +180620,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 24137,
+				"calls": 25182,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -180626,7 +180657,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 275641,
+				"calls": 287473,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"e onl",
@@ -183328,22 +183359,22 @@
 		"sector": "K_7766",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559696687751,
+		"last_scraped": 1559731033383,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669026640,
-		"edit": 36,
-		"next_scrape": 1559740857103,
+		"updt": 1559696749314,
+		"edit": 37,
+		"next_scrape": 1559775071225,
 		"category": "fishie_tank",
-		"last_update": 1559696687751,
+		"last_update": 1559731033383,
 		"output": [
 			{
 				"args": {},
-				"calls": 278882,
+				"calls": 290910,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"ow? #",
@@ -183393,7 +183424,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 25112,
+				"calls": 25743,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -183448,7 +183479,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 297369,
+				"calls": 306830,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"ow? #",
@@ -189420,22 +189451,22 @@
 		"sector": "K_3353",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559697348961,
+		"last_scraped": 1559731674306,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669477125,
-		"edit": 43,
-		"next_scrape": 1559742980506,
+		"updt": 1559697425895,
+		"edit": 44,
+		"next_scrape": 1559777097586,
 		"category": "coin_flipper",
-		"last_update": 1559697348961,
+		"last_update": 1559731674306,
 		"output": [
 			{
 				"args": {},
-				"calls": 379061,
+				"calls": 383846,
 				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 				"fragments": [
 					"he ci",
@@ -190881,22 +190912,22 @@
 		"sector": "VNP_1327",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559696768214,
+		"last_scraped": 1559731114465,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559696975113,
-		"edit": 46,
-		"next_scrape": 1559736876176,
+		"updt": 1559697202034,
+		"edit": 47,
+		"next_scrape": 1559771233046,
 		"category": "coin_flipper",
-		"last_update": 1559696768214,
+		"last_update": 1559731114465,
 		"output": [
 			{
 				"args": {},
-				"calls": 399509,
+				"calls": 404214,
 				"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 				"fragments": [
 					"why P",
@@ -206822,22 +206853,22 @@
 		"sector": "VNP_6726",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559697338730,
+		"last_scraped": 1559731663815,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669477125,
-		"edit": 37,
-		"next_scrape": 1559742105372,
+		"updt": 1559697425895,
+		"edit": 38,
+		"next_scrape": 1559772933450,
 		"category": "fishie_tank",
-		"last_update": 1559697338730,
+		"last_update": 1559731663815,
 		"output": [
 			{
 				"args": {},
-				"calls": 293906,
+				"calls": 305669,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"ities",
@@ -206883,7 +206914,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 25324,
+				"calls": 26379,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -206934,7 +206965,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 271367,
+				"calls": 281989,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"ities",
@@ -212041,26 +212072,25 @@
 	{
 		"_id": "unknown_docarr.smells",
 		"type": "fragment",
-		"mode": "fresh",
+		"mode": "npc",
 		"script": "unknown_docarr.smells",
 		"sector": "K_7641",
 		"sec_level": 4,
 		"date_added": 1559695828109,
-		"last_scraped": 1559696057502,
+		"last_scraped": 1559731283980,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1559695828109
 			}
 		],
-		"scrape_ct": 16,
-		"next_scrape": 1559696117502,
+		"next_scrape": 1559776239574,
 		"category": "fishie_tank",
-		"last_update": 1559696057502,
+		"last_update": 1559731283980,
 		"output": [
 			{
 				"args": {},
-				"calls": 27559,
+				"calls": 107586,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"at di",
@@ -212092,7 +212122,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 1268,
+				"calls": 8945,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -212129,7 +212159,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 19990,
+				"calls": 120658,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"at di",
@@ -212158,8 +212188,8 @@
 				]
 			}
 		],
-		"updt": 1559695845603,
-		"edit": 1,
+		"updt": 1559696975113,
+		"edit": 4,
 		"identified": [
 			{
 				"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
@@ -212173,11 +212203,6 @@
 					"ut it, s",
 					" to talk"
 				]
-			}
-		],
-		"retry_args": [
-			{
-				"do": "clean"
 			}
 		]
 	},
@@ -214756,22 +214781,22 @@
 		"sector": "K_7766",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559696717787,
+		"last_scraped": 1559731063822,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669026640,
-		"edit": 37,
-		"next_scrape": 1559743074387,
+		"updt": 1559696749314,
+		"edit": 38,
+		"next_scrape": 1559772559585,
 		"category": "fishie_tank",
-		"last_update": 1559696717787,
+		"last_update": 1559731063822,
 		"output": [
 			{
 				"args": {},
-				"calls": 286160,
+				"calls": 295213,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"t is ",
@@ -214805,7 +214830,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 26220,
+				"calls": 27316,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -214844,7 +214869,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 283535,
+				"calls": 296393,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"t is ",
@@ -225313,22 +225338,22 @@
 		"sector": "K_9730",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559696998471,
+		"last_scraped": 1559731363460,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669251685,
-		"edit": 45,
-		"next_scrape": 1559740348804,
+		"updt": 1559697202034,
+		"edit": 46,
+		"next_scrape": 1559771138908,
 		"category": "dice_roller",
-		"last_update": 1559696998471,
+		"last_update": 1559731363460,
 		"output": [
 			{
 				"args": {},
-				"calls": 393676,
+				"calls": 405728,
 				"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 				"fragments": [
 					"n_png",
@@ -226877,22 +226902,22 @@
 		"sector": "HJG_1060",
 		"sec_level": 4,
 		"date_added": 1558821408422,
-		"last_scraped": 1559696908570,
+		"last_scraped": 1559731253726,
 		"script_log": [
 			{
 				"type": "added",
 				"when": 1558821408422
 			}
 		],
-		"updt": 1559669251685,
-		"edit": 35,
-		"next_scrape": 1559742931682,
+		"updt": 1559731242690,
+		"edit": 37,
+		"next_scrape": 1559774501098,
 		"category": "fishie_tank",
-		"last_update": 1559696908570,
+		"last_update": 1559731253726,
 		"output": [
 			{
 				"args": {},
-				"calls": 283284,
+				"calls": 295651,
 				"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 				"fragments": [
 					"lves ",
@@ -226934,7 +226959,7 @@
 				"args": {
 					"do": "feed"
 				},
-				"calls": 25483,
+				"calls": 26330,
 				"base": [
 					"Fishies are happy.",
 					"actuly they look fine",
@@ -226981,7 +227006,7 @@
 				"args": {
 					"do": "clean"
 				},
-				"calls": 309048,
+				"calls": 318121,
 				"base": "Fishies are happy. Algea eaters are displeased.",
 				"fragments": [
 					"lves ",
